@@ -35,22 +35,22 @@ Welcome to the **Document Classifier AI Website**! This project provides a robus
 2. Navigate to the project directory
 Use the cd command to move into the project folder:
    ```bash
-cd Document-Classifier
+   cd Document-Classifier
 
 3.Install dependencies
 Install the required Python libraries using the command:
     ```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4.Run the development server
 Start the local development server with the following command:
     ```bash
-python app.py runserver
+    python app.py runserver
 
 5.Access the website
 Open your web browser and navigate to:
     ```bash
-http://localhost:8000
+    http://localhost:8000
 
 ## Usage
 - Upload your document via the upload interface.
@@ -60,6 +60,6 @@ http://localhost:8000
 
 ## Technology Stack
 - Backend: Flask (Python)
-= Frontend: HTML/.js
+- Frontend: HTML/.js
 - AI Model: Scikit-learn
 - Database: MySQL
