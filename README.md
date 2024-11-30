@@ -34,23 +34,23 @@ Welcome to the **Document Classifier AI Website**! This project provides a robus
    git clone https://github.com/yourusername/document-classifier-ai.git
 2. Navigate to the project directory
 Use the cd command to move into the project folder:
-   ```bash
-   cd Document-Classifier
+    ```bash
+    cd Document-Classifier
 
 3.Install dependencies
 Install the required Python libraries using the command:
-    ```bash
-    pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4.Run the development server
 Start the local development server with the following command:
-    ```bash
-    python app.py runserver
+   ```bash
+   python app.py runserver
 
 5.Access the website
 Open your web browser and navigate to:
-    ```bash
-    http://localhost:8000
+   ```bash
+   http://localhost:8000
 
 ## Usage
 - Upload your document via the upload interface.
@@ -60,6 +60,6 @@ Open your web browser and navigate to:
 
 ## Technology Stack
 - Backend: Flask (Python)
-- Frontend: HTML/.js
+- Frontend: HTML/CSS
 - AI Model: Scikit-learn
 - Database: MySQL
