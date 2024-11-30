@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Classifier</title>
+    <!-- Add Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background: linear-gradient(120deg, #f4f4f4, #c7d6fc, #e6dbd1, #cfe4cf);
+            color: #333;
+            background-size: 400% 400%; /* Make the gradient larger than the body */
+            overflow-x: hidden;
+            animation: gradientMove 12s ease infinite;
+        }
+        /* Define the moving gradient animation */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+        /* Typewriter animation */
+        .typewriter h1 {
+            overflow: hidden;
+            border: solid #00e676;
+            white-space: nowrap;
+            width: 103%; /* Adjust the width to full */
+            animation: typing 1s steps(22, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 103%; /* Keep the text visible after typing finishes */
+            }
+        }
+
+        @keyframes blink-caret {
+            0%,
+            100% {
+                border-color: transparent; /* Remove the blinking caret after animation */
+            }
+            50% {
+                border-color: transparent; /* The caret remains transparent */
+            }
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .main-content h1 {
+            font-size: 3rem;
+            color: #00e676;
+        }
+
+        /* Modern Document Container */
+        .container {
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in;
+            border-left: 5px solid #00e676;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        form {
+            display: grid;
+            gap: 20px;
+            text-align: left;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            background-color: #f9f9f9;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 12px;
+            font-size: 1rem;
+            line-height: 1.5;
+            resize: none;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        textarea:focus {
+            border-color: #00e676;
+            box-shadow: 0 0 6px rgba(0, 230, 118, 0.3);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        input[type="text"]:focus {
+            border-color: #00e676;
+            box-shadow: 0 0 6px rgba(0, 230, 118, 0.3);
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+        button1 {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #00c853;
+            box-shadow: 0 4px 10px rgba(0, 200, 83, 0.2);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            width: 250px;
+            background-color: #1f1f1f;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 0 20px 20px 0;
+            transition: left 0.3s ease;
+            z-index: 1000;
+        }
+
+        .sidebar.open {
+            left: 0;
+        }
+
+        .sidebar h1 {
+            color: #00e676;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            display: flex;
+            align-items: center;
+            color: #e0e0e0;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar a i {
+            margin-right: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: #00e676;
+            color: #121212;
+        }
+
+        /* Scrollable container */
+        .scroll-container {
+            margin-left: 0;
+            padding: 20px;
+            overflow-y: auto;
+            height: 100vh;
+            transition: margin-left 0.3s ease;
+        }
+
+        .scroll-container.expanded {
+            margin-left: 250px;
+        }
+
+        /* Developer Footer */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #1f1f1f;
+            color: #616161;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #00e676;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #00c853;
+        }
+
+        /* Sidebar toggle button */
+        .toggle-btn {
+            position: fixed;
+            top: 20px;
+            background: transparent; /* No background when hovering */
+            color: #00e676;
+            border: none;
+            font-size: 40px;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease; /* Smooth color transition */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar Toggle Button -->
+    <button1 class="toggle-btn" onclick="toggleSidebar()">
+        &gt;
+    </button1>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <h1 style="margin-top: 20px;">MENU</h1>
+        <a href="/"><i class="fas fa-upload"></i> Upload</a>
+        <a href="storage.html"><i class="fas fa-hdd"></i> Storage</a>
+        <a href="settings.html"><i class="fas fa-cogs"></i> Settings</a>
+        {% if session.logged_in %}
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        {% else %}
+            <a href="signup.html"><i class="fas fa-sign-in-alt"></i> Sign In/Sign Up</a>
+        {% endif %}
+        <a href="github.html"><i class="fab fa-github"></i> Github</a>
+        <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+    </div>
+
+    <!-- Scrollable Content -->
+    <div class="scroll-container" id="scrollContainer">
+        <div class="main-content fade-in">
+            <div class="typewriter">
+                <h1><i class="fas fa-file-alt"></i> Document Classifier AI <i class="fas fa-brain"></i></h1>
+            </div>
+            <div class="typewriter-tagline">
+                <p>Automate your document organization and classification with ease.</p>
+            </div>
+
+            <div class="container fade-in">
+                <h2>Review & Classify</h2>
+                <form method="POST" action="/submit">
+                    <ul>
+                        {% for doc, prediction in zipped_data %}
+                <li> Predicted Category: {{ prediction }}</li>
+                        <li>
+                            <textarea name="doc">{{ doc }}</textarea><br>
+                            <label for="label">Classification:</label>
+                            <input type="text" name="label" value="{{ prediction }}">
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <a><button type="submit">Submit</button></a>
+                </form>
+            </div>
+        </div>
+
+        <!-- Developer Footer at the very bottom -->
+        <footer class="footer">
+            <p>Developed by <a href="mailto:dev@example.com">John Doe</a></p>
+            <p>Contact: +1 (123) 456-7890 | Address: 1234 Elm Street, Suite 567</p>
+        </footer>
+    </div>
+    
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const scrollContainer = document.getElementById('scrollContainer');
+            sidebar.classList.toggle('open');
+            scrollContainer.classList.toggle('expanded');
+
+            const toggleBtn = document.querySelector('.toggle-btn');
+            toggleBtn.innerHTML = sidebar.classList.contains('open') ? '&lt;' : '&gt;';
+        }
+    </script>
+</body>
+
+</html>

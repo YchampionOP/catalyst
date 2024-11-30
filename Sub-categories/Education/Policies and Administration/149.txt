@@ -1,0 +1,139 @@
+Title: No Child Left Behind Act
+
+Description: Federal legislation aimed at improving educational outcomes.
+Year Implemented: 2001
+Key Features: Increased funding, standardized testing.
+Title: Every Student Succeeds Act (ESSA)
+
+Description: Replaces NCLB, allows states to set their educational goals.
+Year Implemented: 2015
+Key Features: State accountability, less federal oversight.
+Title: Individuals with Disabilities Education Act (IDEA)
+
+Description: Ensures students with disabilities receive appropriate education.
+Year Implemented: 1975
+Key Features: Individualized Education Plans (IEPs).
+Title: Title IX of the Education Amendments
+
+Description: Prohibits sex-based discrimination in education.
+Year Implemented: 1972
+Key Features: Equal opportunities in athletics.
+Title: Common Core State Standards
+
+Description: Set of educational standards for K-12 students.
+Year Implemented: 2010
+Key Features: Consistent learning goals across states.
+Title: Head Start Program
+
+Description: Early childhood education program for low-income families.
+Year Implemented: 1965
+Key Features: Focus on child development and education.
+Title: Family Educational Rights and Privacy Act (FERPA)
+
+Description: Protects student education records.
+Year Implemented: 1974
+Key Features: Parental access to records, confidentiality.
+Title: Every Child a Reader Program
+
+Description: Initiative to improve literacy among children.
+Year Implemented: 2005
+Key Features: Literacy programs, teacher training.
+Title: School Improvement Grants
+
+Description: Federal funds for improving underperforming schools.
+Year Implemented: 2009
+Key Features: Support for reform efforts, school turnaround.
+Title: Workforce Innovation and Opportunity Act (WIOA)
+
+Description: Aims to enhance workforce development.
+Year Implemented: 2014
+Key Features: Training programs, adult education.
+... (90 more entries in this category)
+
+2. School Management (200 Entries)
+Management Strategy: Strategic Planning in Education
+
+Description: Long-term goal setting for educational institutions.
+Key Components: Vision statements, resource allocation.
+Management Strategy: Data-Driven Decision Making
+
+Description: Using data analysis to inform educational practices.
+Key Components: Student performance metrics.
+Management Strategy: Positive Behavioral Interventions and Supports (PBIS)
+
+Description: Framework for improving student behavior.
+Key Components: Behavior expectations, recognition.
+Management Strategy: Professional Development for Educators
+
+Description: Training for teachers to enhance skills.
+Key Components: Workshops, mentorship programs.
+Management Strategy: Inclusive School Practices
+
+Description: Strategies to support all learners.
+Key Components: Differentiated instruction, collaboration.
+Management Strategy: Crisis Management Plans
+
+Description: Plans for handling emergencies in schools.
+Key Components: Risk assessments, communication.
+Management Strategy: Financial Management in Schools
+
+Description: Strategies for budgeting and resource allocation.
+Key Components: Fiscal planning, grant writing.
+Management Strategy: Community Engagement Strategies
+
+Description: Involving community in school initiatives.
+Key Components: Parent-teacher associations, outreach programs.
+Management Strategy: Technology Integration in Education
+
+Description: Using technology to enhance learning.
+Key Components: Digital tools, e-learning platforms.
+Management Strategy: Performance Evaluation of Educators
+
+Description: Assessing teacher effectiveness.
+Key Components: Observation, feedback mechanisms.
+... (90 more entries in this category)
+
+3. Higher Education (100 Entries)
+Policy Title: Higher Education Act
+
+Description: Legislation to increase access to higher education.
+Year Implemented: 1965
+Key Features: Financial aid programs, Pell Grants.
+Policy Title: Diversity and Inclusion Initiatives
+
+Description: Policies promoting diversity in colleges.
+Key Features: Recruitment strategies for minorities.
+Policy Title: Student Right to Know Act
+
+Description: Mandates colleges disclose graduation rates.
+Year Implemented: 1990
+Key Features: Transparency in institutional performance.
+Policy Title: Gainful Employment Rule
+
+Description: Regulations for career training programs.
+Year Implemented: 2014
+Key Features: Debt-to-earnings metrics.
+Policy Title: Accreditation and Quality Assurance
+
+Description: Ensures colleges meet quality standards.
+Key Features: Peer review processes, continuous improvement.
+Policy Title: Financial Aid for Graduate Students
+
+Description: Support for graduate-level education.
+Key Features: Loans, scholarships.
+Policy Title: Open Educational Resources (OER) Initiative
+
+Description: Promoting free educational resources.
+Key Features: Textbooks, online courses.
+Policy Title: Dual Enrollment Programs
+
+Description: High school students taking college courses.
+Key Features: College credit while in high school.
+Policy Title: Work-Study Programs
+
+Description: Employment opportunities for college students.
+Key Features: Financial assistance through work.
+Policy Title: First-Generation College Student Support
+
+Description: Programs to assist first-gen students.
+Key Features: Mentoring, financial literacy training.

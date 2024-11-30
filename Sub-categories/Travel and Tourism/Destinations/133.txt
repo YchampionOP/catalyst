@@ -1,0 +1,152 @@
+. Destinations
+Destination: Bali, Indonesia
+
+Overview: Known for its stunning beaches, rice terraces, and vibrant culture.
+Best Time to Visit: April to October for dry weather.
+Local Cuisine: Nasi Goreng, Babi Guling, and fresh seafood.
+Entry Fee: N/A for beaches, but some temples may charge.
+Opening Hours: Beaches open 24/7; temples vary.
+Destination: Athens, Greece
+
+Overview: The cradle of Western civilization, filled with ancient monuments and artworks.
+Best Time to Visit: March to June and September to October.
+Local Cuisine: Moussaka, Souvlaki, and Baklava.
+Entry Fee: Acropolis €20.
+Opening Hours: 8:00 AM - 8:00 PM.
+Destination: Cairo, Egypt
+
+Overview: Home to the Great Pyramids and the Sphinx, rich in history.
+Best Time to Visit: October to April.
+Local Cuisine: Koshari, Shawarma, and Falafel.
+Entry Fee: Pyramids around 200 EGP.
+Opening Hours: 8:00 AM - 5:00 PM.
+Destination: Sydney, Australia
+
+Overview: A harbor city known for its Opera House and beautiful beaches.
+Best Time to Visit: September to November and March to May.
+Local Cuisine: Meat pies, fresh seafood, and barbecued lamb.
+Entry Fee: Varies by attraction; Opera House tours from AUD 43.
+Opening Hours: Varies by location.
+Destination: London, England
+
+Overview: A bustling metropolis with a rich history, diverse culture, and iconic landmarks.
+Best Time to Visit: March to May for pleasant weather.
+Local Cuisine: Fish and chips, Full English breakfast, and afternoon tea.
+Entry Fee: Varies; many museums are free.
+Opening Hours: Generally 9:00 AM - 5:00 PM.
+Destination: Dubai, UAE
+
+Overview: A modern city known for luxury shopping, ultramodern architecture, and lively nightlife.
+Best Time to Visit: November to March.
+Local Cuisine: Shawarma, Hummus, and Falafel.
+Entry Fee: Burj Khalifa around AED 149.
+Opening Hours: 10:00 AM - 10:00 PM.
+Destination: Kyoto, Japan
+
+Overview: Known for its classical Buddhist temples, gardens, imperial palaces, and traditional wooden houses.
+Best Time to Visit: March to May for cherry blossoms; October for autumn colors.
+Local Cuisine: Kaiseki, Yudofu, and Matcha sweets.
+Entry Fee: Varies by temple; around ¥500.
+Opening Hours: Varies by location.
+Destination: New York City, USA
+
+Overview: The city that never sleeps, filled with iconic landmarks and diverse neighborhoods.
+Best Time to Visit: Spring (April to June) and Fall (September to November).
+Local Cuisine: Bagels, New York-style pizza, and cheesecake.
+Entry Fee: Varies; some parks free, museums may charge.
+Opening Hours: Varies by attraction.
+Destination: Rio de Janeiro, Brazil
+
+Overview: Famous for its Copacabana beach, Sugarloaf Mountain, and vibrant Carnival festival.
+Best Time to Visit: December to March for summer.
+Local Cuisine: Feijoada, Pão de Queijo, and Caipirinha.
+Entry Fee: Free for beaches; attractions vary.
+Opening Hours: Varies by location.
+Destination: Vancouver, Canada
+
+Overview: Known for its stunning natural scenery, including mountains and ocean views.
+Best Time to Visit: May to September.
+Local Cuisine: Salmon, Poutine, and Asian cuisine.
+Entry Fee: Free access to parks; attractions vary.
+Opening Hours: Varies by attraction.
+2. City Tours
+City Tour: Barcelona, Spain
+
+Duration: 4 days
+Highlights: Sagrada Familia, Park Güell, Gothic Quarter.
+Tips: Book tickets for attractions in advance to skip lines.
+City Tour: Rome, Italy
+
+Duration: 5 days
+Highlights: Colosseum, Vatican City, and Roman Forum.
+Tips: Wear comfortable shoes for walking on cobblestones.
+City Tour: Istanbul, Turkey
+
+Duration: 4 days
+Highlights: Hagia Sophia, Topkapi Palace, and the Grand Bazaar.
+Tips: Try local street food for an authentic experience.
+City Tour: Bangkok, Thailand
+
+Duration: 3 days
+Highlights: Grand Palace, Wat Pho, and floating markets.
+Tips: Use public transport to avoid traffic jams.
+City Tour: San Francisco, USA
+
+Duration: 3 days
+Highlights: Golden Gate Bridge, Alcatraz Island, and Fisherman’s Wharf.
+Tips: Wear layers; the weather can change quickly.
+3. Tourist Attractions
+Attraction: Machu Picchu, Peru
+
+Description: A 15th-century Inca citadel set high in the Andes Mountains, known for its archaeological significance.
+Entry Fee: $50; includes access to the site.
+Opening Hours: 6:00 AM - 5:30 PM.
+Attraction: Niagara Falls, USA/Canada
+
+Description: Iconic waterfalls located on the border between the U.S. and Canada; famous for their beauty and power.
+Entry Fee: Free to view; boat tours available at $25.
+Best Time to Visit: Summer for the full experience; winter for ice formations.
+Attraction: Petra, Jordan
+
+Description: Ancient city famous for its rock-cut architecture and water conduit system, recognized as one of the New Seven Wonders of the World.
+Entry Fee: 50 JD; valid for one day.
+Opening Hours: 6:00 AM - 6:00 PM.
+Attraction: Stonehenge, England
+
+Description: Prehistoric monument consisting of a ring of standing stones; a UNESCO World Heritage site.
+Entry Fee: £19.50; includes visitor center.
+Opening Hours: 9:00 AM - 7:00 PM.
+Attraction: Angkor Wat, Cambodia
+
+Description: The largest religious monument in the world, originally constructed as a Hindu temple, later transformed into a Buddhist temple.
+Entry Fee: $37 for one day.
+Opening Hours: 5:00 AM - 6:00 PM.
+4. Travel Itineraries
+Itinerary: 10-Day European Adventure
+
+Day 1: Fly to London; visit the Tower of London.
+Day 2: Explore Buckingham Palace and the British Museum.
+Day 3: Train to Paris; visit the Eiffel Tower.
+Day 4: Day trip to Versailles.
+Day 5: Fly to Rome; explore the Colosseum.
+Day 6: Visit Vatican City and St. Peter's Basilica.
+Day 7: Train to Florence; see the Duomo.
+Day 8: Day trip to Pisa.
+Day 9: Fly to Barcelona; visit La Sagrada Familia.
+Day 10: Relax at the beach before flying home.
+Itinerary: 7-Day Italian Escape
+
+Day 1: Arrive in Venice; gondola ride.
+Day 2: Explore St. Mark’s Basilica.
+Day 3: Train to Florence; visit the Uffizi Gallery.
+Day 4: Day trip to Siena.
+Day 5: Train to Rome; visit the Roman Forum.
+Day 6: Explore Trastevere and enjoy local cuisine.
+Day 7: Fly home.
+Itinerary: 5-Day New York City Tour
+
+Day 1: Arrive; visit Times Square.
+Day 2: Explore Central Park and museums.
+Day 3: Statue of Liberty and Ellis Island.
+Day 4: Broadway show and shopping in Soho.
+Day 5: Brooklyn Bridge and return home.

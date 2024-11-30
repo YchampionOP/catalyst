@@ -1,0 +1,155 @@
+Information Security:
+Information security principles:
+Confidentiality, Integrity, Availability (CIA triad)
+Non-repudiation
+Authentication
+Authorization
+Information security policies:
+Acceptable use policy
+Data classification policy
+Incident response policy
+Remote access policy
+Risk management:
+Risk assessment
+Vulnerability assessment
+Threat modeling
+Risk mitigation strategies
+Security frameworks:
+NIST Cybersecurity Framework
+ISO/IEC 27001
+COBIT (Control Objectives for Information and Related Technologies)
+CIS Controls (Center for Internet Security)
+Access control models:
+Discretionary Access Control (DAC)
+Mandatory Access Control (MAC)
+Role-Based Access Control (RBAC)
+Attribute-Based Access Control (ABAC)
+Data security measures:
+Encryption (symmetric, asymmetric)
+Hashing algorithms (SHA-256, MD5)
+Tokenization
+Data masking
+Data loss prevention (DLP)
+Identity and Access Management (IAM):
+Multi-factor authentication (MFA)
+Single sign-on (SSO)
+Privileged access management (PAM)
+Federated identity management
+Incident response:
+Incident detection
+Incident containment
+Incident eradication
+Post-incident analysis
+Security information and event management (SIEM)
+Network Security:
+Network security fundamentals:
+Network segmentation
+Perimeter security
+Defense-in-depth
+Demilitarized zone (DMZ)
+Firewalls:
+Packet filtering firewalls
+Stateful inspection firewalls
+Next-generation firewalls (NGFW)
+Web Application Firewalls (WAF)
+Intrusion Detection and Prevention Systems (IDPS):
+Host-based IDS (HIDS)
+Network-based IDS (NIDS)
+Signature-based detection
+Anomaly-based detection
+Virtual Private Networks (VPNs):
+Site-to-site VPN
+Remote access VPN
+VPN protocols (IPsec, SSL/TLS)
+Wireless security:
+Wi-Fi security protocols (WPA, WPA2, WPA3)
+Wireless intrusion prevention systems (WIPS)
+Rogue access point detection
+Network protocols:
+Secure Socket Layer (SSL) / Transport Layer Security (TLS)
+Secure Shell (SSH)
+Internet Protocol Security (IPsec)
+Simple Network Management Protocol version 3 (SNMPv3)
+Security policies and procedures:
+Change management policy
+Configuration management
+Network monitoring and logging
+Data Privacy:
+Data privacy principles:
+Data minimization
+Purpose limitation
+Data accuracy
+Data retention and deletion
+Regulations and compliance:
+General Data Protection Regulation (GDPR)
+California Consumer Privacy Act (CCPA)
+Health Insurance Portability and Accountability Act (HIPAA)
+Payment Card Industry Data Security Standard (PCI DSS)
+Privacy impact assessments (PIA):
+Conducting PIAs
+Assessing risks to privacy
+Mitigation strategies
+Data subject rights:
+Right to access
+Right to rectification
+Right to erasure (right to be forgotten)
+Right to data portability
+Privacy by design:
+Incorporating privacy into the development process
+Default settings for data protection
+Transparency in data processing
+Anonymization and pseudonymization:
+Techniques for anonymizing data
+Risk of re-identification
+Use cases for pseudonymization
+Threat Detection:
+Threat intelligence:
+Types of threat intelligence (strategic, tactical, operational)
+Open-source intelligence (OSINT)
+Commercial threat intelligence services
+Threat hunting techniques
+Malware analysis:
+Types of malware (viruses, worms, Trojans, ransomware)
+Static analysis vs. dynamic analysis
+Reverse engineering techniques
+Security monitoring:
+Continuous monitoring of networks and systems
+Log analysis and correlation
+SIEM tools (Splunk, LogRhythm, QRadar)
+Behavioral analysis:
+User behavior analytics (UBA)
+Entity behavior analytics (EBA)
+Machine learning for anomaly detection
+Vulnerability management:
+Vulnerability scanning tools (Nessus, Qualys)
+Patch management processes
+CVE (Common Vulnerabilities and Exposures) database
+Incident detection techniques:
+Signature-based detection
+Heuristic detection
+Machine learning models for threat detection
+Penetration testing:
+Types of penetration tests (black box, white box, gray box)
+Red teaming vs. blue teaming
+Post-penetration testing reporting and remediation
+Emerging Trends in Cybersecurity:
+Zero Trust Architecture:
+Principles of Zero Trust
+Micro-segmentation
+Continuous verification
+Cloud security:
+Cloud security best practices
+Shared responsibility model
+Security measures for SaaS, PaaS, IaaS
+Internet of Things (IoT) security:
+IoT device vulnerabilities
+Secure communication protocols for IoT
+IoT security frameworks
+Artificial Intelligence and Machine Learning in cybersecurity:
+AI-driven threat detection
+Automated incident response
+Behavioral analytics powered by AI
+Cybersecurity training and awareness:
+Phishing awareness training
+Security awareness programs
+Social engineering tactics

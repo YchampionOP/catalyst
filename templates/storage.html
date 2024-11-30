@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background: linear-gradient(120deg, #f4f4f4, #c7d6fc, #e6dbd1, #cfe4cf);
+            color: #333;
+            background-size: 400% 400%; /* Make the gradient larger than the body */
+            overflow-x: hidden;
+            animation: gradientMove 12s ease infinite;
+        }
+        /* Define the moving gradient animation */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+        /* Typewriter animation */
+        .typewriter h1 {
+            overflow: hidden;
+            border: solid #00e676;
+            white-space: nowrap;
+            width: 103%;  /* Adjust the width to full */
+            animation: typing 1s steps(22, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 103%;  /* Keep the text visible after typing finishes */
+            }
+        }
+
+        @keyframes blink-caret {
+            0%,
+            100% {
+                border-color: transparent;  /* Remove the blinking caret after animation */
+            }
+            50% {
+                border-color: transparent;  /* The caret remains transparent */
+            }
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .main-content h1 {
+            font-size: 3rem;
+            color: #00e676;
+        }
+
+        /* Modern Document Container */
+        .container {
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in;
+            border-left: 5px solid #00e676;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .container:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        form {
+            display: grid;
+            gap: 20px;
+            text-align: left;
+        }
+
+        textarea {
+            width: 100%;
+            height: 150px;
+            background-color: #f9f9f9;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 12px;
+            font-size: 1rem;
+            line-height: 1.5;
+            resize: none;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        textarea:focus {
+            border-color: #00e676;
+            box-shadow: 0 0 6px rgba(0, 230, 118, 0.3);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+
+        input[type="text"]:focus {
+            border-color: #00e676;
+            box-shadow: 0 0 6px rgba(0, 230, 118, 0.3);
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+        button1 {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #00c853;
+            box-shadow: 0 4px 10px rgba(0, 200, 83, 0.2);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            width: 250px;
+            background-color: #1f1f1f;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 0 20px 20px 0;
+            transition: left 0.3s ease;
+            z-index: 1000;
+        }
+
+        .sidebar.open {
+            left: 0;
+        }
+
+        .sidebar h1 {
+            color: #00e676;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            display: flex;
+            align-items: center;
+            color: #e0e0e0;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar a i {
+            margin-right: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: #00e676;
+            color: #121212;
+        }
+
+        /* Scrollable container */
+        .scroll-container {
+            margin-left: 0;
+            padding: 20px;
+            overflow-y: auto;
+            height: 100vh;
+            transition: margin-left 0.3s ease;
+        }
+
+        .scroll-container.expanded {
+            margin-left: 250px;
+        }
+
+        /* Developer Footer */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #1f1f1f;
+            color: #616161;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #00e676;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #00c853;
+        }
+
+        /* Sidebar toggle button */
+        .toggle-btn {
+            position: fixed;
+            top: 20px;
+            background: transparent; /* No background when hovering */
+            color: #00e676;
+            border: none;
+            font-size: 40px;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease;  /* Smooth color transition */
+        }
+        .file-explorer-container {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .explorer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #00e676;
+            padding: 15px 30px;
+            border-radius: 8px;
+            color: #121212;
+        }
+
+        .explorer-header h1 {
+            font-size: 2rem;
+            margin: 0;
+        }
+
+        .explorer-header .user-info {
+            font-size: 1.2rem;
+        }
+
+        .file-explorer {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .folder {
+            background-color: #333;
+            color: #fff;
+            width: 150px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        .folder:hover {
+            background-color: #444;
+            cursor: pointer;
+        }
+
+        .folder i {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .folder p {
+            font-size: 1.1rem;
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .breadcrumbs a {
+            text-decoration: none;
+            color: #00e676;
+            margin-right: 10px;
+        }
+
+        .breadcrumbs a:hover {
+            text-decoration: underline;
+        }
+
+        .storage-container {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .file-explorer {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        .file-item {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            margin-bottom: 4px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .file-item:hover {
+            background-color: #f1f1f1;
+        }
+        .folder-icon, .file-icon {
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+        .action-buttons button {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Sidebar Toggle Button -->
+    <button1 class="toggle-btn" onclick="toggleSidebar()">
+        &gt;
+    </button1>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <h1 style="margin-top: 20px;">MENU</h1>
+        <a href="/"><i class="fas fa-upload"></i> Upload</a>
+        <a href="storage.html"><i class="fas fa-hdd"></i> Storage</a>
+        <a href="settings.html"><i class="fas fa-cogs"></i> Settings</a>
+        {% if session.logged_in %}
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        {% else %}
+            <a href="signup.html"><i class="fas fa-sign-in-alt"></i> Sign In/Sign Up</a>
+        {% endif %}
+        <a href="github.html"><i class="fas fa-question-circle"></i> Github</a>
+        <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+    </div>
+    <h1>Welcome, {{ current_user.username }}</h1>
+        <div class="main-content fade-in">
+            <!-- File Explorer Container -->
+            <div class="container mt-5">
+                <h1 class="mb-4 text-center">Storage Manager</h1>
+        
+                <!-- File Explorer -->
+                <div class="storage-container">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#" id="breadcrumb-home">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page" id="current-folder">Root</li>
+                        </ol>
+                    </nav>
+        
+                    <div class="d-flex justify-content-between mb-3">
+                        <div>
+                    <div id="file-explorer" class="file-explorer">
+                        <!-- Folders and files will dynamically appear here --> 
+                    </div>
+                </div>
+            </div>
+        
+            <button class="btn btn-primary" id="add-folder-btn" data-bs-toggle="modal" data-bs-target="#addFolderModal">
+                <i class="fas fa-folder-plus"></i> Add Folder
+            </button>
+            
+            <!-- Add Folder Modal -->
+            <div class="modal fade" id="addFolderModal" tabindex="-1" aria-labelledby="addFolderModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Add New Folder</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="add-folder-form" method="POST" action="/create_folder">
+                                <div class="mb-3">
+                                    <label for="folder-name" class="form-label">Folder Name</label>
+                                    <input type="text" class="form-control" id="folder-name" name="folder_name" required>
+                                    <input type="hidden" id="current-path" name="current_path" value="root">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Create</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn btn-secondary" id="add-file-btn" data-bs-toggle="modal" data-bs-target="#addFileModal">
+                <i class="fas fa-file-upload"></i> Add File
+            </button>
+            
+            <!-- Add File Modal -->
+            <div class="modal fade" id="addFileModal" tabindex="-1" aria-labelledby="addFileModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Upload New File</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="add-file-form" method="POST" action="/upload_file" enctype="multipart/form-data">
+                                <div class="mb-3">
+                                    <label for="file-upload" class="form-label">Choose File</label>
+                                    <input type="file" class="form-control" id="file-upload" name="file" required>
+                                    <input type="hidden" id="current-path" name="current_path" value="root">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Upload</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+<!-- Developer Footer at the very bottom -->
+<footer class="footer" style="margin-top: 10%;">
+    <p>Developed by <a href="krakshit.1970@gmail.com">Arijit Rakshit</a></p>
+    <p>Contact: +91 7908871586 | Address: Munsiffdanga, ward no. 2, Purulia, West Bengal, India</p>
+</footer>
+<script>
+        function toggleSidebar() {
+        const sidebar = document.getElementById('sidebar');
+        const scrollContainer = document.getElementById('scrollContainer');
+        sidebar.classList.toggle('open');
+        scrollContainer.classList.toggle('expanded');
+    }
+
+    // Dynamically passed file structure from Flask
+    const fileStructure = JSON.parse(`{{ file_structure|tojson|safe }}`);
+    console.log('File Structure:', fileStructure);
+    let currentPath = ["root"];
+
+    // Render the file explorer based on the current path
+    function renderFileExplorer() {
+        const container = document.getElementById("file-explorer");
+        container.innerHTML = "";
+
+        let currentDir = fileStructure;
+        currentPath.forEach(path => {
+            currentDir = currentDir[path]?.contents || {};
+        });
+
+        Object.keys(currentDir).forEach(name => {
+            const item = document.createElement("div");
+            item.className = "file-item";
+
+            if (currentDir[name].type === "folder") {
+                item.innerHTML = `
+                    <i class="fas fa-folder folder-icon text-warning"></i>
+                    <span>${name}</span>
+                `;
+                item.onclick = () => {
+                    currentPath.push(name);
+                    updateBreadcrumb();
+                    renderFileExplorer();
+                    updateCurrentPath(currentPath); // Update current path
+                };
+            } else if (currentDir[name].type === "file") {
+                const filePath = currentPath.slice(1).join('/') + '/' + name;  // Construct relative file path
+    
+    item.innerHTML = `
+        <i class="fas fa-file-alt file-icon text-info"></i>
+        <span>${name}</span>
+        <div class="action-buttons">
+            <button class="btn btn-sm btn-outline-primary" onclick="downloadFile('${filePath}')">View By Download</button>
+        </div>
+    `;
+            }
+            container.appendChild(item);
+        });
+    }
+    function downloadFile(filePath) {
+    window.location.href = `/download_file?path=${encodeURIComponent(filePath)}`;
+}
+
+    function updateCurrentPath(path) {
+        const currentPathInputs = document.querySelectorAll('#current-path');
+        currentPathInputs.forEach(input => {
+            input.value = path.join('/'); // Update hidden input with current folder path
+        });
+    }
+
+    // Update breadcrumb navigation
+    function updateBreadcrumb() {
+        const breadcrumb = document.querySelector(".breadcrumb");
+        breadcrumb.innerHTML = `
+            <li class="breadcrumb-item"><a href="#" id="breadcrumb-home">Home</a></li>
+        `;
+        currentPath.forEach((folder, index) => {
+            if (index === currentPath.length - 1) {
+                breadcrumb.innerHTML += `<li class="breadcrumb-item active" aria-current="page">${folder}</li>`;
+            } else {
+                breadcrumb.innerHTML += `<li class="breadcrumb-item"><a href="#" onclick="goToFolder(${index})">${folder}</a></li>`;
+            }
+        });
+    }
+
+    function goToFolder(index) {
+        currentPath = currentPath.slice(0, index + 1);
+        updateBreadcrumb();
+        renderFileExplorer();
+    }
+
+    document.getElementById("breadcrumb-home").onclick = () => {
+        currentPath = ["root"];
+        updateBreadcrumb();
+        renderFileExplorer();
+    };
+
+    // Initial rendering
+    renderFileExplorer();
+    updateBreadcrumb();
+</script>
+</body>
+</html>

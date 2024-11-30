@@ -1,0 +1,360 @@
+INTRODUCTION TOARTIFICIAL 
+INTELLIGENCEObjective sof thisCourse
+•Thisclassisabroad introduction toartificial
+intelligence (AI)
+oAIisaverybroad fieldwithmany subareas
+•Wewillcover many oftheprimary concepts/ideas
+•Butin15weeks wecan’t cover everythingToday’s Lecture
+•What is intelligence? What is artificial intelligence?
+•Averybriefhistory ofAI
+oModern successes: Stanley the driving robot
+•An AIscorecard
+oHowmuch progress hasbeen made indifferent aspects ofAI
+•AI inpractice
+oSuccessful applicationsAIandSoftComputing: ADifferent Perspective
+AI: predicate logic and symbol manipulation  
+techniques
+User InterfaceInference  
+Engine
+Explan ation  
+Facility
+Knowledge
+AcquisitionKB:•Fact
+•rulesGlobal  
+Database
+Knowledge
+Engineer
+Human  
+ExpertQuestion
+Response
+Expert SystemsUserAI and SoftComputing
+ANN
+Learning and  
+adaptationFuzzy Set Theory  
+Knowledge representation  
+Via
+Fuzzy if-then RULE
+Genetic Algorithms  
+Systematic  
+Random SearchAI
+Symbolic
+ManipulationAI and SoftComputing
+cat
+cut
+knowledgeAnimal? cat
+Neural character  
+recognition5What is Hard Computing ?
+•Hard computing, i.e., conventional 
+compu ting, requires a precise ly  stated 
+analytical model and often a lot of 
+Computational Time.
+•Many analytical models are valid forideal  
+cases.
+•Real world problems exist in a non-ideal  
+environment.6Premises and guiding principles of  
+HardComputing
+Precision, Certainty, andRigor.
+•Many contemporary problems do not lend  
+themselves to precise solutions such as: 
+Recognition problems (handwriting,  
+speech, objects, images, texts)
+Mobile robot coordination, forecasting,  
+combinatorial problems etc.
+Reasoning on natural languages7
+Recognition problems (handwriting, speech,  
+objects, images, texts)8
+Mobile robotCoordination
+weather forecasting
+Natural Language ProcessingWha t isArtificial 
+Intelligence ?Some Definitions (I)
+The exciting new effort tomake  
+computers think…
+machines with minds,
+in the full literal sense.
+Haugeland, 1985Some Definitions (II)
+The study of mental faculties through the use  
+of computational models.
+Charniak and McDermott, 1985
+A field of study that seeks to explain and  
+emulate intelligent behavior in terms of  
+computational processes.
+Schalkoff , 1990Some Definitions (III)
+The study of how to make  
+computers dothings atwhich, at  
+the moment, people are better.
+Rich & Knight ,1991Outline of theCourse
+•Knowledge representation:
+opropositional logicandfirst-order logic
+oinference in Expert Systems
+oFuzzy logic
+oRough set
+oMachine learning: classification trees
+oNeural networks
+oOhers ?What isntelligence ?
+•Intelligence:
+o―thecapacity tolearn andsolve problems‖ (Websters dictionary)
+oinparticular,
+•theability tosolve novel problems
+•theability toactrationally
+•theability toactlikehumans
+•Artificial Intelligence
+obuildandunderstand intelligent entities oragents
+o2 main approaches: ―engineering ‖ versus ―cognitive modeling‖WhatisArtificial  Intelligence?
+(John McCarthy, Stanford University)
+• W h a t  isartificial intelligence?
+Itisthescience and engineering ofmaking intelligent machines, especially intelligent  
+computer programs. I t  is related to the similar task of using computers to understand  
+human intelligence, but AI does not have to confine itself to methods that are  
+biologically observable.
+•Isn't there a solid definition of intelligence that doesn't depend on 
+relating it to human  intelligence?
+Not yet. The problem isthat we cannot yet characterize in general what kinds of  
+computational procedures wewant tocall intelligent. We understand some ofthe  
+mechanisms ofintelligence and not others.
+• More in:http://www -formal.stanford.edu/jmc/whatisai/node1.html
+What’s involved in  
+Intelligence ?
+•Ability to interact with the real world
+oto perceive, understand, andact
+oe.g.,speech recognition andunderstanding andsynthesis
+oe.g., image understanding
+oe.g.,ability totakeactions, have aneffect
+•Reasoning andPlanning
+omodeling theexternal world, given input
+osolving newproblems, planning, andmaking decisions
+oability todeal withunexpected problems, uncertainties
+•Learning andAdaptation
+owearecontinuously learning andadapting
+oourinternal models arealways being“updated”
+•e.g.,ababy learning tocategorize andrecognize animalsAcademic Disciplines important 
+toAI.
+•Mathematics Formal representation andproof,algorithms,computation, (un)decidability, (in)tractability,
+•Economicsprobability.
+utility, decision theory, rational economic
+neurons as information processing units.agents
+•Neuroscience
+•Psychology/ howdopeople behave, perceive, processCognitive Science
+•Computerinformation, represent knowledge.
+building fastcomputersengineering
+•Control theory design systems that maximize anobjective
+•Linguisticsfunction overtime
+knowledge representation, grammarHistory ofAI
+•1943: early beginnings
+oMcCulloch &Pitts:Boolean circuit model ofbrain
+•1950:Turing
+oTuring's "Computing Machinery andIntelligence―
+•1956: birth ofAI
+oDartmouth meeting: "Artificial Intelligence―
+name adopted
+•1950s: initial promise
+oEarly AI programs, includingoSamuel's checkers program
+oNewell & Simon's Logic TheoristHistory ofAI
+•1966—73: Reality dawns
+oRealization thatmany AIproblems areintractable
+oLimitations of existing neural network methods identified
+•Neural network research almost disappears
+•1969—85: Adding domain knowledge
+oDevelopment of knowledge -based systems
+oSuccess of rule-based expert systems,
+•E.g., DENDRAL, MYCIN
+•Butwere brittle anddidnotscale wellinpractice
+•1986--Rise of machine learning
+oNeural networks return topopularity
+oMajor advances inmachine learning algorithms andapplications
+•1990--Role ofuncertainty
+oBayesian networks as aknowledge representation framework
+•1995--AI asScience
+oIntegration of learning, reasoning, knowledge representation
+oAImethods usedinvision, language, data mining, etcDifferent Types of Artificial
+Intelligence
+1.Modeling exactly howhumans actually think
+2.Modeling exactly howhumans actually act
+3.Modeling howideal agents ―should think‖
+4.Modeling howideal agents ―should act‖
+•Modern AIfocuses onthelastdefinition
+owewillalsofocus onthis―engineering‖ approach
+osuccess isjudged byhowwelltheagent performsThe Origins ofAI
+•1950 AlanT uring’spaper , ComputingMachin eryand
+Intelligence ,described what isnowcalled ―TheTuring Test‖.
+•Turing predicted that inabout fiftyyears "an average
+interrogator willnothave more thana70percent chance of
+making the right identification after five minutes of
+questioning" .
+•1957 Newell andSimon predicted that"Within tenyears a
+computer willbetheworld's chess champion ."The Chinese Room
+Set ofrules, in  
+English, for  
+transforming  
+phrasesChinese  
+Writing is  
+given tothe  
+personCorrect  
+ResponsesShedoes not  
+know  
+ChineseThe Chinese Room
+•Soimag ine anindividual islocked inaroom andgiven a
+batch of Chinese writing.
+•The person locked inthe room does not understand Chinese .
+Next heisgiven more Chinese writing and aset ofrules (in
+English which heunderstands) onhow tocollate the first setof
+Chinese characters with the second setofChinese characters .
+•Suppose the person gets sogood atmanipulating the Chinese
+symbols and the rules are sogood, that tothose outside the
+room itappears that theperson understands Chinese .
+•Searle's point is that, he doesn't really understand Chinese, it
+really only following asetofrules.
+•Following this argument, acomputer could never be truly
+intelligent, itisonly manipulating symbols that itreally doesn't
+understand the semantic context .Can these Questions are Answerable?
+Can Computers play Humans atChess?
+Can Computers Talk?
+Can Computers Recognize Speech?
+Can Computers Learn and Adapt ?
+Can Computers “see”?
+Can Computers plan and make decisions?CanComputers playHumans atChess?
+•Chess Playing is aclassic AI problem
+owell-defined problem
+overycomplex: difficult forhumans toplaywell
+•Conclusion: YES:today’s computers canbeateven
+the besthuman3000
+2800
+2600
+2400
+2200
+2000
+1800
+1600
+1400
+1200
+1966 1971 1976 1981 1986 1991 1997RatingsGarry Kasparov (current World Champion ) Deep Blue
+Deep ThoughtPoints Ratings
+Can Computers Talk?
+•This is known as ―speech synthesis‖
+otranslate text to phonetic form
+•e.g., ―fictitious‖ ->fik-tish-es
+ousepronunciation rulestomapphonemes toactual sound
+•e.g., ―tish‖ -> sequence of basic audio sounds
+•Difficulties
+osounds made bythis―lookup‖ approach sound unnatural
+osounds are notindependent
+•e.g., ―act‖ and―action‖
+•modern systems (e.g., atAT&T) canhandle thispretty well
+oaharder problem isemphasis, emotion, etc
+•humans understand what theyaresaying
+•machines don’t: sotheysound unnatural
+•Conclusion:
+oNO, for complete sentences
+oYES, for individual wordsCan Computers Recognize Speech?
+•Speech Recognition:
+omapping sounds fromamicrophone intoalistofwords
+oclassic problem in AI, very difficult
+•Recognizing single words fromasmall vocabulary
+•systems candothiswithhighaccuracy (order of99%)
+•e.g., directory inquiries
+olimited vocabulary (area codes, citynames)
+ocomputer triestorecognize youfirst,ifunsuccessful hands you  
+overtoahuman operator
+osaves millions ofdollars ayearforthephone companiesRecognizi nghumanspeech
+(ctd.)
+•Recognizing normal speech ismuch more difficult
+ospeech iscontinuous: where aretheboundaries between words?
+•e.g.,―John’s carhasaflattire‖
+olarge vocabularies
+•canbemany thousands ofpossible words
+•wecanusecontext tohelpfigure outwhat someone said
+oe.g., hypothesize andtest
+otrytelling awaiter inarestaurant:
+―Iwould likesome sugar inmycoffee‖
+obackground noise, other speakers, accents, colds, etc
+oonnormal speech, modern systems areonlyabout 60-70%accurate
+•Conclusion:
+oNO,normal speech istoocomplex toaccurately recognize
+oYES, for restricted problems (small vocabulary, single speaker)CanComputers LearnandAdapt?
+•Learning andAdaptation
+oconsider acomputer learning todrive onthefreeway
+owecould code lotsofrulesabout what todo
+oand/or wecould have itlearn fromexperience
+omachine learning allows computers tolearn todothings without  
+explicit programming
+•Conclusion: YES, computers can learn and  
+adapt, when presented withinformation inthe  
+appropriate wayCan Computers “see”?
+•Recognition v. Understanding (likeSpeech)
+oRecognition andUnderstanding ofObjects inascene
+•look around thisroom
+•you caneffortlessly recognize objects
+•human brain canmap2dvisual image to3d―map‖
+•Why is visual recognition ahard problem?
+•Conclusion:
+omostly NO:computers canonly―see‖ certain types ofobjects under  
+limited circumstances
+oYESforcertain constrained problems (e.g., facerecognition)CanComputers planandmake
+decisions?
+•Intelligence
+oinvolves solving problems andmaking decisions andplans
+oe.g.,youwant tovisityourcousin inBoston
+•youneed todecide ondates, flights
+•youneed togettotheairport, etc
+•involves asequence ofdecisions, plans, andactions
+•What makes planning hard?
+othe world is notpredictable:
+•yourflightiscanceled orthere’s abackup onthe405
+othere isapotentially huge number ofdetails
+•doyouconsider allflights? alldates?
+o no: commonsense constrains yoursolutions
+oAIsystems areonlysuccessful inconstrained planning problems
+•Conclusion: NO,real-world planning anddecision -
+making is still beyond the capabilities of modern  
+computers
+oexception: verywell-defined, constrained problems: mission planning for  
+satelites.Summary ofStateofAISystems
+inPractice
+•Speech synthesis, recognition andunderstanding
+overyuseful forlimited vocabulary applications
+ounconstrained speech understanding is stilltoohard
+•Computer vision
+oworks forconstrained problems (hand -written zip-codes)
+ounderstanding real-world, natural scenes is stilltoohard
+•Learning
+oadaptive systems areusedinmany applications: have theirlimits
+•Planning andReasoning
+oonlyworks forconstrained problems: e.g.,chess
+oreal-world is toocomplex forgeneral systems
+•Overall:
+omany components ofintelligent systems are―doable‖
+othere aremany interesting research problems remainingIntelligent Systems in Your 
+Everyday Life
+•PostOffice
+oautomatic address recognition andsorting ofmail
+•Banks
+oautomatic check readers, signature verification systems
+oautomated loan application classification
+•Telephone Companies
+oautomatic voice recognition for directory inquiries
+•Credit Card Companies
+oautomated fraud detection
+•Computer Companies
+oautomated diagnosis for help-deskapplications
+•Netflix:
+omovie recommendation
+•Google:
+oSearch TechnologyAI Applications: Identification
+Technologies
+•IDcards
+oe.g., ATMcards
+ocanbeanuisance andsecurity risk:
+•cards canbelost,stolen, passwords forgotten, etc
+•Biometric Identification
+owalkuptoalocked door
+•camera
+•fingerprint device
+•microphone
+•irisscan
+ocomputer uses your biometric signature foridentification
+•face, eyes, fingerprints, voice pattern, iris patternThe agenda of AI class:
+1.Fuzzy logic
+2.Prepositional logic –prolog –expert systems with  
+inference algorithms
+3.Rough settheory
+4.Decision trees, kNN, Naive Bayes
+5.Neural network

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings - Document Classifier AI</title>
+    <!-- Add Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background: linear-gradient(120deg, #f4f4f4, #c7d6fc, #e6dbd1, #cfe4cf);
+            color: #333;
+            background-size: 400% 400%; /* Make the gradient larger than the body */
+            overflow-x: hidden;
+            animation: gradientMove 12s ease infinite;
+        }
+        /* Define the moving gradient animation */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+        /* Sidebar styles */
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            width: 250px;
+            background-color: #1f1f1f;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 0 20px 20px 0;
+            transition: left 0.3s ease;
+            z-index: 1000;
+        }
+
+        .sidebar.open {
+            left: 0;
+        }
+
+        .sidebar h1 {
+            color: #00e676;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .sidebar a {
+            display: flex;
+            align-items: center;
+            color: #e0e0e0;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar a i {
+            margin-right: 10px;
+        }
+
+        .sidebar a:hover {
+            background-color: #00e676;
+            color: #121212;
+        }
+
+        /* Main content styles */
+        .main-content {
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .container {
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+        }
+
+        button {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+
+        button1{
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #00c853;
+            box-shadow: 0 4px 10px rgba(0, 200, 83, 0.2);
+        }
+
+        /* Developer Footer */
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #1f1f1f;
+            color: #616161;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #00e676;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #00c853;
+        }
+
+        /* Sidebar toggle button */
+        .toggle-btn {
+            position: fixed;
+            top: 20px;
+            background: transparent;
+            color: #00e676;
+            border: none;
+            font-size: 40px;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease;
+        }
+        /* Container */
+.settings-container {
+    background: rgba(255, 255, 255, 0.1); /* Transparent white */
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    -webkit-text-fill-color: #121212;
+    margin-left:80px;
+    margin-top:80px;
+}
+
+/* Section Headings */
+.settings-container h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+/* Form Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    outline: none;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Buttons */
+.save-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e3c72;
+    background: linear-gradient(135deg, #ffffff, #e0e0e0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background 0.3s ease;
+}
+
+.save-btn:hover {
+    background: linear-gradient(135deg, #f7f7f7, #ffffff);
+    transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .settings-container {
+        padding: 20px;
+    }
+    
+    .save-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+/* Feedback Form Styles */
+.feedback-container {
+    margin-top: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.feedback-container h2 {
+    font-size: 24px;
+    color: #ffffff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    outline: none;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    resize: none;
+    transition: background 0.3s ease;
+}
+
+textarea:focus {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.submit-btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e3c72;
+    background: linear-gradient(135deg, #ffffff, #e0e0e0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: linear-gradient(135deg, #f7f7f7, #ffffff);
+    transform: translateY(-2px);
+}
+    </style>
+</head>
+
+<body>
+
+    <!-- Sidebar Toggle Button -->
+    <button1 class="toggle-btn" onclick="toggleSidebar()">
+        &gt;
+    </button1>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <h1 style="margin-top: 20px;">MENU</h1>
+        <a href=""><i class="fas fa-upload"></i> Upload</a>
+        <a href="storage.html"><i class="fas fa-hdd"></i> Storage</a>
+        <a href="settings.html"><i class="fas fa-cogs"></i> Settings</a>
+        {% if session.logged_in %}
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        {% else %}
+            <a href="signup.html"><i class="fas fa-sign-in-alt"></i> Sign In/Sign Up</a>
+        {% endif %}
+        <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+    </div>
+
+    <!-- Scrollable Content -->
+    <div class="scroll-container" id="scrollContainer">
+        <div class="main-content">
+            <h1>Settings</h1>
+                <div class="settings-container">
+                    <div class="profile-section">
+                        <h2>Profile</h2>
+                        <form method="POST" action="/update_profile">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" value="{{ current_user.username }}" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" value="{{ current_user.email }}" required>
+                            </div>
+                            <button type="submit" class="save-btn">Save Changes</button>
+                        </form>
+                    </div>
+                    <div class="security-section" style="margin-top:80px;">
+                        <h2>Security</h2>
+                        <form method="POST" action="/change_password">
+                            <div class="form-group">
+                                <label for="current_password">Current Password</label>
+                                <input type="password" id="current_password" name="current_password" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="new_password">New Password</label>
+                                <input type="password" id="new_password" name="new_password" required>
+                            </div>
+                            <button type="submit" class="save-btn">Change Password</button>
+                        </form>
+                    </div>
+                    <div class="feedback-container" style="margin-top:80px;">
+                        <h2>Feedback</h2>
+                        <form method="POST" action="/submit_feedback">
+                            <div class="form-group">
+                                <label for="feedback">Your Feedback or Queries</label>
+                                <textarea id="feedback" name="feedback" rows="5" placeholder="Feel free to write your feedback or queries here..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Feedback</button>
+                        </form>
+                    </div>                    
+                </div>
+        </div>
+   <!-- Developer Footer at the very bottom -->
+<footer class="footer" style="margin-top: 30%;">
+    <p>Developed by <a href="krakshit.1970@gmail.com">Arijit Rakshit</a></p>
+    <p>Contact: +91 7908871586 | Address: Munsiffdanga, ward no. 2, Purulia, West Bengal, India</p>
+</footer>
+    </div>
+
+    <script>
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const scrollContainer = document.getElementById('scrollContainer');
+            sidebar.classList.toggle('open');
+            scrollContainer.classList.toggle('expanded');
+
+            const toggleBtn = document.querySelector('.toggle-btn');
+            toggleBtn.innerHTML = sidebar.classList.contains('open') ? '&lt;' : '&gt;';
+        }
+    </script>
+</body>
+
+</html>

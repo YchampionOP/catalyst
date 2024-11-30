@@ -1,0 +1,103 @@
+General Categories of Policies & Administration
+Education Policies
+
+Policy Title: No Child Left Behind Act
+
+Description: A federal law aimed at improving educational outcomes for all students, emphasizing standardized testing and accountability.
+Year Implemented: 2001
+Key Features: Increased funding for schools, requirements for states to develop assessments, and provisions for schools that fail to meet performance targets.
+Policy Title: Every Student Succeeds Act (ESSA)
+
+Description: A reauthorization of the Elementary and Secondary Education Act that replaced No Child Left Behind, providing more flexibility to states in how they measure school performance.
+Year Implemented: 2015
+Key Features: Focus on a well-rounded education, supports for struggling schools, and reduced emphasis on standardized testing.
+Policy Title: Individuals with Disabilities Education Act (IDEA)
+
+Description: Ensures students with disabilities have the right to a free appropriate public education and services tailored to their individual needs.
+Year Implemented: 1975
+Key Features: Individualized Education Plans (IEPs), inclusion in general education classrooms, and parental involvement in decision-making.
+Policy Title: Title IX of the Education Amendments
+
+Description: Prohibits sex-based discrimination in federally funded education programs and activities.
+Year Implemented: 1972
+Key Features: Equal opportunities in athletics, admissions, and treatment in educational settings.
+Policy Title: Common Core State Standards
+
+Description: A set of high-quality academic standards in mathematics and English language arts/literacy.
+Year Implemented: 2010
+Key Features: Consistent learning goals across states, focus on critical thinking, and preparation for college and career.
+School Management
+
+Management Strategy: Strategic Planning in Education
+
+Description: A long-term approach to setting goals and determining actions to achieve those goals within an educational institution.
+Key Components: Vision and mission statements, stakeholder engagement, resource allocation, and performance metrics.
+Management Strategy: Data-Driven Decision Making
+
+Description: Utilizing data analysis to inform decisions regarding curriculum, instruction, and school improvement.
+Key Components: Collection of student performance data, teacher assessments, and feedback loops for continuous improvement.
+Management Strategy: Inclusive School Practices
+
+Description: Strategies to ensure all students, regardless of their backgrounds or abilities, are fully included in the school community.
+Key Components: Differentiated instruction, collaboration among staff, and supportive environments.
+Management Strategy: Professional Development for Educators
+
+Description: Ongoing training and education for teachers and staff to improve their skills and knowledge.
+Key Components: Workshops, mentorship programs, and evaluation of teaching practices.
+Management Strategy: Crisis Management Plans
+
+Description: Comprehensive plans outlining procedures for handling emergencies in schools, including natural disasters and security threats.
+Key Components: Risk assessments, communication strategies, and training for staff and students.
+Higher Education
+
+Policy Title: Higher Education Act
+
+Description: Legislation aimed at increasing access to higher education and ensuring financial aid for students.
+Year Implemented: 1965
+Key Features: Federal financial aid programs, Pell Grants, and support for minority-serving institutions.
+Policy Title: College Affordability and Accountability Act
+
+Description: Focuses on controlling rising college costs and improving the accountability of higher education institutions.
+Year Implemented: Proposed in 2009 (not passed)
+Key Features: Increased transparency in tuition pricing, metrics for measuring institutional performance.
+Policy Title: Gainful Employment Rule
+
+Description: Regulations requiring that career training programs at higher education institutions prepare students for gainful employment.
+Year Implemented: 2014
+Key Features: Debt-to-earnings ratio metrics for program evaluation.
+Policy Title: Diversity and Inclusion Initiatives in Higher Education
+
+Description: Policies promoting diversity and inclusion on college campuses to foster a welcoming environment for all students.
+Key Features: Recruitment strategies for underrepresented groups, training on cultural competency, and support services.
+Policy Title: Accreditation and Quality Assurance in Higher Education
+
+Description: Processes ensuring that educational institutions meet certain standards of quality and effectiveness.
+Key Features: Regular assessments, peer reviews, and continuous improvement plans.
+Sample Entries for the Dataset
+Education Policy Example:
+
+Title: School Lunch Program
+Description: A federal program providing free or reduced-price meals to eligible students, aimed at improving child nutrition.
+Year Implemented: 1946
+Key Features: Nutritional standards for meals, outreach to low-income families, and participation incentives for schools.
+School Management Strategy Example:
+
+Title: Positive Behavioral Interventions and Supports (PBIS)
+Description: A framework for improving student behavior and creating a positive school climate.
+Key Components: Clear behavioral expectations, data collection on behavior incidents, and recognition of positive behavior.
+Higher Education Policy Example:
+
+Title: Student Right to Know Act
+Description: Requires colleges and universities to disclose certain information about their graduation rates and student demographics.
+Year Implemented: 1990
+Key Features: Transparency in institutional performance, informed student choice.
+Management Strategy Example:
+
+Title: Collaborative Leadership in Education
+Description: A leadership approach that emphasizes teamwork and shared decision-making among school staff and stakeholders.
+Key Components: Building trust among staff, engaging parents and community, and fostering professional learning communities.
+Policy Example for Inclusivity:
+
+Title: Accessibility Policies in Higher Education
+Description: Guidelines ensuring that students with disabilities have equal access to education and campus resources.
+Key Features: Accommodations for classroom materials, physical accessibility improvements, and support services.

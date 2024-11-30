@@ -1,0 +1,128 @@
+Security governance:
+Information Security Management System (ISMS)
+Security policies and procedures documentation
+Security awareness training programs
+Role of the Chief Information Security Officer (CISO)
+Security controls:
+Administrative controls
+Technical controls
+Physical controls
+Control frameworks (NIST, ISO 27001)
+Compliance and auditing:
+Security audits and assessments
+Third-party vendor assessments
+Internal vs. external audits
+Data integrity:
+Checksums and hash functions
+Digital signatures
+Data validation techniques
+Cryptography:
+Symmetric vs. asymmetric encryption
+Public Key Infrastructure (PKI)
+Certificate authorities (CAs)
+SSL/TLS certificates
+Incident response teams (IRT):
+Roles and responsibilities within the IRT
+Communication plans for incidents
+Incident categorization and prioritization
+Business continuity planning (BCP):
+Disaster recovery plans (DRP)
+Business impact analysis (BIA)
+Testing and maintenance of BCP
+Network Security (Expanded):
+Network architecture:
+Network topologies (star, mesh, hybrid)
+Secure network design principles
+Network zoning and segmentation
+Network security protocols:
+Hypertext Transfer Protocol Secure (HTTPS)
+Internet Protocol Security (IPsec)
+Simple Network Management Protocol version 3 (SNMPv3)
+Network attacks:
+Denial of Service (DoS) and Distributed Denial of Service (DDoS) attacks
+Man-in-the-Middle (MitM) attacks
+Phishing attacks targeting network access
+Network security monitoring:
+Flow analysis and NetFlow
+Network behavior analysis (NBA)
+Anomaly detection in network traffic
+Secure remote access:
+VPN types and implementations
+Remote desktop security
+Security measures for remote work environments
+Data Privacy (Expanded):
+Data governance:
+Data stewardship
+Data lineage and data cataloging
+Data quality management
+Privacy laws and regulations:
+General Data Protection Regulation (GDPR)
+California Consumer Privacy Act (CCPA)
+Children’s Online Privacy Protection Act (COPPA)
+ePrivacy Directive
+Data breaches and responses:
+Incident notification requirements
+Public relations strategies for data breaches
+Forensic investigation techniques
+Data lifecycle management:
+Data creation, storage, usage, sharing, and deletion
+Archiving and backup strategies
+Secure data disposal methods
+Consumer rights:
+Right to opt-out
+Right to access personal data
+Right to data portability
+Threat Detection (Expanded):
+Threat landscapes:
+Cyber threat actor types (hacktivists, nation-states, cybercriminals)
+Current threat trends (ransomware, insider threats)
+Cyber kill chain model
+Threat modeling methodologies:
+STRIDE (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)
+PASTA (Process for Attack Simulation and Threat Analysis)
+LINDDUN (Privacy Threat Modeling)
+Malware categories:
+Ransomware, spyware, adware, trojans, rootkits
+Advanced Persistent Threats (APTs)
+Fileless malware and memory-based attacks
+Penetration testing methodologies:
+OWASP Testing Guide
+PTES (Penetration Testing Execution Standard)
+Web application penetration testing frameworks
+Security analytics:
+Behavioral analytics tools
+Security orchestration, automation, and response (SOAR)
+Data enrichment techniques for threat detection
+Emerging Trends and Technologies in Cybersecurity:
+Artificial Intelligence and Machine Learning:
+AI-driven security analytics
+Predictive analytics for threat detection
+Automating incident response with AI
+Blockchain technology in cybersecurity:
+Blockchain for identity management
+Secure data sharing with blockchain
+Use cases for decentralized applications (dApps)
+Cybersecurity mesh architecture:
+Concepts of modular security
+Integration of security across distributed environments
+Supply chain security:
+Risks associated with third-party vendors
+Supply chain attack vectors
+Best practices for vendor risk management
+Cybersecurity training and certifications:
+Common certifications (CISSP, CISM, CEH, CompTIA Security+)
+Continuous education in cybersecurity
+Cybersecurity boot camps and online training resources
+Security Tools and Technologies:
+Endpoint protection:
+Endpoint Detection and Response (EDR) tools
+Antivirus and anti-malware software
+Mobile device management (MDM) solutions
+Security operations center (SOC):
+SOC roles (analysts, engineers, incident responders)
+SOC technologies and tools
+Security monitoring and incident response workflows
+Data loss prevention (DLP):
+DLP tools and techniques
+Endpoint DLP vs. network DLP
+Policy creation for DLP systems

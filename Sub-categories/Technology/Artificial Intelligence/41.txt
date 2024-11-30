@@ -1,0 +1,362 @@
+General Artificial Intelligence (AI):
+Artificial General Intelligence (AGI)
+Narrow AI
+Strong AI vs. Weak AI
+Turing test
+AI ethics
+AI bias
+Explainability in AI
+AI fairness
+AI safety
+Reinforcement learning
+Supervised learning
+Unsupervised learning
+Semi-supervised learning
+Transfer learning
+Deep learning
+Shallow learning
+Model interpretability
+Explainable AI (XAI)
+Ethical AI
+Autonomous systems
+Artificial neural networks (ANN)
+Generative AI
+AI governance
+AI regulation
+Fairness, Accountability, and Transparency in AI (FAT/ML)
+AI in healthcare
+AI in finance
+AI in education
+AI in law
+AI in marketing
+AI in customer service
+AI in autonomous vehicles
+AI in security
+AI augmentation
+AI decision-making
+Model deployment in AI
+AI frameworks (TensorFlow, PyTorch, Keras, Scikit-learn)
+AI model serving
+Model drift
+AI benchmarking
+AI lifecycle management
+AI in cloud computing
+AI in edge computing
+AI and IoT (AIoT)
+Neuromorphic computing
+Quantum AI
+AI in smart cities
+Cognitive computing
+Machine Learning (ML):
+Decision trees
+Random forest
+Gradient boosting
+XGBoost
+LightGBM
+Support vector machines (SVM)
+K-nearest neighbors (KNN)
+Linear regression
+Logistic regression
+Naive Bayes classifier
+K-means clustering
+Hierarchical clustering
+Gaussian mixture model (GMM)
+Principal component analysis (PCA)
+Independent component analysis (ICA)
+t-distributed stochastic neighbor embedding (t-SNE)
+UMAP (Uniform Manifold Approximation and Projection)
+Neural networks
+Convolutional neural networks (CNN)
+Recurrent neural networks (RNN)
+Long short-term memory (LSTM)
+Gated recurrent units (GRU)
+Autoencoders
+Variational autoencoders (VAE)
+Generative adversarial networks (GAN)
+Markov decision process (MDP)
+Q-learning
+Deep Q-network (DQN)
+Monte Carlo simulation
+Bayesian networks
+Hyperparameter tuning
+Cross-validation
+Overfitting vs. underfitting
+Regularization (L1, L2)
+Gradient descent
+Stochastic gradient descent (SGD)
+Mini-batch gradient descent
+Backpropagation
+Loss functions (MSE, Cross-entropy)
+Activation functions (ReLU, Sigmoid, Tanh, Softmax)
+Batch normalization
+Dropout regularization
+Attention mechanism
+Transformers
+BERT (Bidirectional Encoder Representations from Transformers)
+GPT (Generative Pretrained Transformer)
+Reinforcement learning
+Policy gradient methods
+Value-based methods
+Exploration vs. exploitation
+Ensemble learning
+Boosting
+Bagging
+Stacking
+Meta-learning
+Few-shot learning
+Zero-shot learning
+Multi-task learning
+Continual learning
+Curriculum learning
+Online learning
+Self-supervised learning
+Active learning
+Feature engineering
+Feature selection
+Dimensionality reduction
+Time series forecasting
+Model evaluation metrics (Accuracy, Precision, Recall, F1-score, ROC-AUC)
+Confusion matrix
+ROC curve
+Precision-recall curve
+Gradient boosting machines (GBM)
+Hyperparameter optimization (Grid search, Random search, Bayesian optimization)
+Model interpretability (SHAP, LIME)
+Machine learning pipelines
+Data preprocessing
+Model scaling
+Model ensembling
+AutoML (Automated Machine Learning)
+Natural Language Processing (NLP):
+Tokenization
+Lemmatization
+Stemming
+Part-of-speech tagging
+Named entity recognition (NER)
+Dependency parsing
+Constituency parsing
+Sentence segmentation
+Word embeddings
+Word2Vec
+GloVe (Global Vectors for Word Representation)
+FastText
+ELMo (Embeddings from Language Models)
+Contextual embeddings
+Pretrained language models
+Language model fine-tuning
+Text classification
+Sentiment analysis
+Topic modeling
+Latent Dirichlet Allocation (LDA)
+Latent Semantic Analysis (LSA)
+Transformer models
+Seq2Seq models
+Attention mechanisms in NLP
+Machine translation
+Neural machine translation (NMT)
+Automatic speech recognition (ASR)
+Speech-to-text
+Text-to-speech (TTS)
+Natural language generation (NLG)
+Text summarization
+Extractive summarization
+Abstractive summarization
+Dialogue systems
+Chatbots
+Conversational agents
+Semantic role labeling (SRL)
+Coreference resolution
+Text normalization
+Language detection
+Text clustering
+Keyword extraction
+Text similarity (Cosine similarity, Jaccard similarity)
+Cross-lingual embeddings
+Word sense disambiguation (WSD)
+Text mining
+Question answering systems
+Information retrieval
+Text corpus
+Named entity disambiguation
+Semantic parsing
+Knowledge graphs
+Multilingual NLP
+Low-resource language modeling
+Entity linking
+Ontology mapping
+Contextualized language models (BERT, GPT, T5)
+Transformer-based language models
+Dialogue management
+Intent recognition
+Slot filling
+Context-aware chatbots
+Language model pretraining
+Transfer learning in NLP
+Prompt engineering
+NLP pipelines
+Preprocessing text for NLP
+Text augmentation for NLP
+Conversational AI platforms
+Text sentiment analysis
+AI-generated content
+Computer Vision:
+Image classification
+Object detection
+Semantic segmentation
+Instance segmentation
+Image recognition
+Image generation
+Generative adversarial networks (GANs) for images
+Convolutional neural networks (CNNs)
+Image preprocessing
+Image data augmentation
+Optical character recognition (OCR)
+Image restoration
+Image denoising
+Image super-resolution
+Feature extraction
+Keypoint detection
+Edge detection
+Visual attention mechanisms
+Image captioning
+Facial recognition
+Face detection
+Pose estimation
+Image retrieval
+Image hashing
+Video processing
+Action recognition in videos
+Scene understanding
+3D object detection
+Depth estimation
+Image segmentation techniques (U-Net, Mask R-CNN)
+Feature matching
+Image registration
+Stereo vision
+Multi-view geometry
+Homography estimation
+Computer vision in autonomous vehicles
+Visual SLAM (Simultaneous Localization and Mapping)
+Camera calibration
+Optical flow
+Gesture recognition
+Object tracking
+Image inpainting
+Image generation using GANs
+Video summarization
+3D reconstruction
+Object recognition
+Scene recognition
+Feature detectors (SIFT, SURF, ORB)
+Image colorization
+Image synthesis
+Image embeddings
+Transfer learning in computer vision
+Pretrained vision models (ResNet, VGG, EfficientNet, Inception)
+ImageNet
+Few-shot learning in vision
+Capsule networks
+Self-supervised learning for vision
+Vision transformers (ViT)
+Adversarial examples in vision
+AI in medical imaging
+AI in satellite imagery
+Autonomous vehicle perception
+Human pose estimation
+AI in video surveillance
+Scene text recognition
+AI in augmented reality (AR) and virtual reality (VR)
+Vision-based reinforcement learning
+Real-time object detection
+3D point cloud processing
+LiDAR data in computer vision
+Video frame interpolation
+Computer vision benchmarks (COCO, PASCAL VOC, Cityscapes)
+Robotics:
+Autonomous robots
+Humanoid robots
+Industrial robots
+Collaborative robots (Cobots)
+Swarm robotics
+Mobile robots
+Aerial robots (drones)
+Robot kinematics
+Forward kinematics
+Inverse kinematics
+Robotic motion planning
+Pathfinding algorithms (A*, Dijkstra's)
+Robot perception
+Sensor fusion
+SLAM (Simultaneous Localization and Mapping)
+LiDAR in robotics
+Robotic manipulation
+Robotic grippers
+Robot control systems
+PID controllers
+Robotic arms
+Robotic hand-eye coordination
+Reinforcement learning in robotics
+Model predictive control (MPC)
+End-to-end learning in robotics
+Robotics simulation environments (ROS, Gazebo)
+Autonomous navigation
+Path planning in dynamic environments
+Obstacle avoidance
+Robotic vision
+Sensorimotor learning
+Human-robot interaction (HRI)
+Collaborative robotics
+Multi-robot systems
+Robot learning from demonstration (LfD)
+Reinforcement learning for robotic control
+Quadruped robots
+Legged robots
+Self-driving cars
+Autonomous drones
+Robotics in manufacturing
+Robotic surgery
+Exoskeletons
+Robot localization
+Robot calibration
+Soft robotics
+Robotic exoskeletons
+Adaptive control in robotics
+Dynamic environments for robots
+AI-powered robots in agriculture
+Robotics in healthcare
+Grasp planning
+AI in robotics safety
+Energy efficiency in robotics
+AI-powered autonomous robots
+Robots in logistics and warehousing
+Tactile sensing in robotics
+Ethical issues in robotics
+AI in space exploration robots
+AI in underwater robotics
+AI in humanoid robotics
+Robots in telepresence applications
+Ethical AI in robotics decision-making
+Real-time decision-making in robotics
+Robotic mapping and exploration
+Collaborative task planning for robots
+Data Engineering for AI:
+Data labeling
+Data augmentation
+Data normalization
+Data preprocessing
+Imbalanced datasets
+Data cleaning
+Big data for AI
+Synthetic data generation
+Data pipelines
+Feature scaling
+Data versioning
+Data governance in AI
+Data lake architectures
+Data ethics
+Data privacy laws (GDPR, CCPA)
+Data anonymization
+AI data lifecycle management
+AI model governance
+Data provenance
+Data integrity

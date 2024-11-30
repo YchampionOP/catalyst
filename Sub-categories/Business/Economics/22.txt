@@ -1,0 +1,177 @@
+Advanced Economics Concepts:
+Economic rent
+Marginal propensity to consume (MPC)
+Marginal propensity to save (MPS)
+Disinflation
+Hyperdeflation
+Secular stagnation
+Negative interest rate
+Output elasticity
+Trickle-down economics
+Rent-seeking
+Cross-price elasticity
+Backward-bending labor supply curve
+Total utility
+Cardinal utility
+Ordinal utility
+Gresham's law
+Engel's law
+Leontief paradox
+Tobin's q
+Easterlin paradox
+Balassa-Samuelson effect
+J-curve effect
+Kuznets curve
+Lorenz curve
+Wage-price spiral
+Hysteresis in unemployment
+Zero lower bound (ZLB)
+Golden rule of savings
+IS curve
+LM curve
+Liquidity trap
+Keynesian cross
+Aggregate expenditure model
+Aggregate income
+Baumol's cost disease
+Arrow's impossibility theorem
+Akerlof's market for lemons
+Pigovian tax
+Slutsky equation
+Shephard's lemma
+Marshallian demand curve
+Hicksian demand curve
+Microeconomic Models & Terms:
+Contract theory
+Principal-agent model
+Adverse selection
+Moral hazard
+Efficiency wage theory
+Nash bargaining solution
+Median voter theorem
+Hotelling’s law
+Coase conjecture
+Stackelberg competition
+Bertrand competition
+Cournot competition
+Shapley value
+Social choice theory
+Revealed preference theory
+Theory of the firm
+Transaction cost economics
+Moral suasion
+Pigouvian subsidy
+Mixed strategy equilibrium
+Price rigidity
+Reservation price
+Switching costs
+Utility maximization subject to a budget constraint
+Production possibility set
+Law of one price
+Search costs
+Market power
+Endowment effect
+Preference reversal
+Kaldor-Hicks efficiency
+Macroeconomic Indicators & Terms:
+Leading indicators
+Lagging indicators
+Coincident indicators
+Economic cycle indicators
+Purchasing Managers' Index (PMI)
+Core inflation vs. headline inflation
+Break-even inflation rate
+Gross capital formation
+Gross fixed capital formation
+Terms of trade shock
+Reflation
+Nominal rigidity
+Real rigidity
+Fiscal drag
+Liquidity preference theory
+Twin deficit hypothesis
+Natural rate of interest
+Sacrifice ratio
+Velocity of money
+Bank for International Settlements (BIS)
+Bretton Woods System
+Capital account convertibility
+Crawling peg
+Debt-to-GDP ratio
+Exchange rate pass-through
+Financial repression
+Impossible trinity (Mundell-Fleming trilemma)
+Fisher equation
+Intertemporal choice
+Labor force participation rate (LFPR)
+Misery index
+Okun’s coefficient
+Total public debt service
+Wage indexation
+Economic Policies & Strategies:
+Capital gains tax
+Inheritance tax
+Wealth tax
+Transfer payments
+Structural unemployment
+Job guarantee programs
+Quantitative tightening
+Open economy macroeconomics
+Currency swaps
+Forward guidance
+Helicopter drop (monetary policy)
+Shadow banking system
+Tobin tax
+Global imbalances
+Target 2 balances
+Expenditure-switching policies
+Import-led growth
+External debt sustainability
+Marshall Plan
+New Economic Geography (NEG)
+Foreign portfolio investment (FPI)
+Macroprudential policy
+Unconventional monetary policy
+Helicopter bond
+Secular bull market
+Crowding in effect
+Expansionary austerity
+Targeted fiscal stimulus
+Automatic stabilizer
+Financial stability board (FSB)
+Ricardian neutrality
+International Trade & Global Economics:
+Infant industry argument
+Autarky
+Trade-related intellectual property rights (TRIPS)
+Trade-creation effect
+Trade-diversion effect
+Terms-of-trade shock
+Preferential trade agreement (PTA)
+Most-favored-nation clause (MFN)
+Non-tariff measures (NTMs)
+Export processing zone (EPZ)
+Special economic zones (SEZ)
+Trade facilitation agreement (TFA)
+Regional Comprehensive Economic Partnership (RCEP)
+Belt and Road Initiative (BRI)
+Global trade imbalances
+Sovereign risk
+Expropriation risk
+Remittances
+Capital account liberalization
+Offshore financial centers (OFC)
+Tax havens
+Trade balance adjustments
+GATT Article XXIV
+Doha Development Round
+ASEAN Free Trade Area (AFTA)
+Common external tariff
+Factor price equalization
+Gravity model of trade
+New trade theory
+Border tax adjustment
+Global value chains (GVCs)
+Cross-border trade facilitation
+Economic corridor
+Trade-related investment measures (TRIMs)

@@ -1,0 +1,698 @@
+1.  Introduction to Economics
+Lecture Notes
+1.  Economics Defined -  Economics is the study  of the allocation of SCARCE resources
+to meet unlimited human wants.
+a.  Microeconomics - is concerned with decision-making by individual economic
+agents such as firms and consumers.
+b.  Macroeconomics - is concerned with the aggregate performance of the entire
+economic system.
+c.  Empirical economics - relies upon fact s to present a description of economic
+activity.
+d.  Economic theory - relies upon principles to analyze behavior of economic
+agents.
+e.  Inductive logic - creates principles from observation.f.  Deductive logic - hypothesis is formulated and tested.
+2.  Usefulness of economics - economics prov ides an objective mode of analysis, with
+rigorous models that are predictive of human behavior.
+3.  Assumptions in Economics - econom ic models of human behavior are built upon
+assumptions; or simplifications that pe rmit rigorous analysis of real world events,
+without irrelevant complications.
+a.  model building - models are abstractions  from reality - the best model is the
+one that best describes reality and is the simplest.
+b.  simplifications:
+1.  ceteris paribus - means all other things equal.2.  problems with abstractions, based on assumptions.  Too often the
+models built are inconsistent with obs erved reality - therefore they are
+faulty and require modification.  When a model is so complex that it cannot
+1be easily communicated or its implicat ions understood - it is less useful. 
+4.  Goals and their Relations - Positive economics is concerned with what is; Normative
+economics is concerned with what should be.  Economic goals are value statements.
+a.  Most societies have one or more of the following goals:
+1.  Economic efficiency,2.  Economic growth,3.  Economic freedom,4.  Economic security,5.  Equitable distribution of income,6.  Full employment,7.  Price level stability, and8.  Reasonable balance of trade.  
+5.  Goals are subject to:
+a.  interpretation -  precise meanings and measurements will often become the
+subject of different points of view, often caused by politics.
+b.  complementary - goals that are comp lementary are consistent and can often
+be accomplished together.
+c.  conflicting  -  where one goal prec ludes or is inconsistent with another. 
+d.  priorities - rank ordering from mo st important to least important; again
+involving value judgments.
+6.  The Formulation of Public and Private Po licy - Policy is the creation of guidelines,
+regulations or law designed to affect the accomplishment of specific economic goals.
+a.  Steps in formulating policy:
+21.   stating goals  - must be measurabl e with specific stated objective to be
+accomplished.
+2.  options - identify the various actions that will accomplish the stated
+goals & select one, and
+3.  evaluation - gather and analyze evidence to determine whether policy
+was effective in accomplishing goal, if not re-examine options and selectoption most likely to be effective.
+7.  Objective Thinking:
+a.  bias - most people bring many misconceptions and biases to economics. 
+Because of political beliefs and ot her value system components rational,
+objective thinking concerning various issues requires the shedding of thesepreconceptions and biases.
+b.  fallacy of composition - is simply the mistaken belief that what is true for the
+individual, must be true for the group.
+c.  cause and effect - post hoc, ergo propter hoc - after this, because of this
+fallacy.
+1.  correlation - statistical associ ation of two or more variables.
+2.  causation - where one variable actually causes another.  Granger
+causality states that the thing that c auses another must occur first, that the
+explainer must add to the correlation, and must be sensible.
+d.  cost-benefit or economic perspective - marginal decision making - if benefits
+of an action will reap more benefits than cost s it is rational to do that thing.
+32. National Income Accounting
+Lecture Notes
+1.  Gross Domestic Product - (GDP) the total value of all goods and services produced
+within the borders of the United St ates (or country under analysis).
+2.  Gross National Product - (GNP) the total value of all goods and services produced
+by Americans regardless of whether in the United States or overseas.
+3.   National Income Accounts are the aggr egate data used to measure the well-being of
+an economy.  
+a.  The mechanics of these various accounts are:
+Gross Domestic Product
+- Depreciation   =
+Net Domestic Product
++ Net American Income Earned Abroad
+- Indirect Business Taxes   =
+National Income
+- Social Security Contributions
+- Corporate Income Taxes- Undistributed Corporate Profits+ Transfer Payments
+  =
+Personal Income
+- Personal Taxes   =
+Disposable Income
+44.  Expenditures Approach vs. Incomes Approach
+a.  Factor payments + Nonincome charges - GNP/GDP adjustments = GDP
+ is the incomes approach
+b.  Y = C + Ig + G + Xn  
+is the expenditures approach (where Y = GDP)
+5.  Social Welfare & GDP - GDP and GNP are nothing more than measures of total
+output (or income).   More information is  necessary before conclusions can be drawn
+concerning social welfare.  There are problems with both measures, among these are:
+a.  Nonmarket transactions such as household-provided services or barter are
+not included in GDP.
+b.  Leisure is an economic good but time away from work is not counted,
+however, movie tickets, skis, and other co mmodities used in leisure time are.
+c.  Product quality - no pretense is made in GDP to account for product or service
+quality.
+d.  Composition & Distribution of Out put - no attempt is made in GDP data to
+account for the composition or distribution of income or output.  We must look at
+sectors to determine composition and other information for distribution.
+e.  Per capita income - is GDP divided by population, very rough guide to
+individual income, but still mostly fails to account for distribution.
+f.  Environmental problems - damage done to the environment in production or
+consumption is not counted in GDP data unless market transactions occur toclean-up the damage.
+g.  Underground economy - estimate s place the amount of underground
+economic activities may be as much a one- third of total U.S. output.  Criminal
+activities, tax evasion, and other su ch activities are the underground economy.
+6.  Price Indices - are the way we attempt to  measure inflation.  Price indices are far
+from perfect measures and are based on surveys of prices of a specific market basket
+of goods.
+a.  Market-basket surveys - The market basket of goods and services are
+5selected periodically in an attempt to appr oximate what the average family of four
+purchases at that time.
+b.  CPI (U) is for urban consumers & CPI (W) is for urban wage earners.  GDP
+Deflator is based on a broader market basket and may be more useful inmeasuring inflation.
+1.  Standard of living - is eroded if t here is inflation and no equal increase
+in wages.
+2.  COLA - are escalator clauses that  tie earnings or other payments to the
+rate of inflation, but only proportionally.
+3.  Other indices - American Chamber of Commerce Research
+Association in Indianapolis does a cross sectional survey, there arewholesale price indices and several others designed for specific purposes.
+c.  Inflation/Deflation - throughout mo st of U.S. economic history we have
+experienced deflation - which is a general decline in all prices.  Inflation isprimarily a post-World War II event and is  defined to be a general increase in all
+prices.
+d.  Nominal versus Real measures - economists use the term nominal to
+describe money value or prices (not adj usted for inflation); real is used to
+describe data which are adjusted for inflation.
+7.  Measuring the price level
+a.  CPI =  (current year market basket/ base year market basket) X 100
+the index number for the base year will be 100.00 (or 1 X 100)
+b.  Inflating is the adjustment of prices to a higher level, for years when the index
+is less than 100.
+c.  Deflating is the adjustment of prices to a lower level, for years when the index
+is more than 100.
+1.  to change nominal into real the following equation is used:Nominal value/(price index/100)
+6d.  Changing base years - a price index base year can be changed to create a
+consistent series (remembering market baskets also change, hence the processhas a fault).  The process is a simple one.  If you wish to convert a 1982 baseyear index to be consistent with a 1987 base year, then you use the index
+number for 1982 in the 1987 series and divide all other observations for the 1982series using the 1982 value in 1987 index series.
+73.  Unemployment and Inflation
+Lecture Notes
+1.  Business Cycle - is the recurrent ups and downs in economic activity observed in
+market economies.
+a.  troughs are where employment and output bottom-out during a recession
+(downturn) 
+b.  peaks are where employment and output  top-out during a recovery (upturn)
+c.  seasonal trends are variations in data that are associated with a particular
+season in the year. 
+d.  secular trends are long-run trend (generally 25 or more years in
+macroeconomic data.
+2.  Unemployment - there are various  causes of unemployment, including:
+a.  frictional - consists of search  and wait unemployment which is caused by
+people searching for employment or waiti ng to take a job in the near future.
+8b.  structural - is caused by a change in composition of output, change in
+technology, or a change in the structure of demand.
+c.  cyclical - due to recessions, (business cycle).
+3.  Full employment - is not zero unemploy ment, full employment unemployment rate is
+the same as the natural rate.
+a.  natural rate - is thought to be about 4% and is structural + frictional 
+unemployment.
+1.  potential output - is the output of the economy at full employment.
+4.  Unemployment rate - is the percent age of the workforce that is unemployed.
+a.  labor force - those employed or unemployed who are willing, able and
+searching for work; the labor force is about 50% of the total population.
+b.  part-time employment - those who do not have 40 hours of work (or
+equivalent) available to them, at 6 milli on U.S. workers were involuntarily part-
+time, and about 10 million were voluntarily part-time employees in 1992.
+c.  discouraged workers - those persons  who dropped out of labor force because
+they could not find an acceptable job.
+d.  false search - those individuals w ho claim to be searching for employment,
+but really were not, some because of  unemployment compensation benefits.
+5.  Okun's law
+a.  Okun's Law states that for each  1% unemployment exceeds the natural rate
+there will be a gap of 2.5% betw een actual GDP and potential GDP.
+6.  Burden of unemployment differs by several factors, these are:
+a.  Occupation - mostly due to structural changes.b.  Age young people tend to experi ence more frictional unemployment.
+9c.   Race and gender reflect discriminati on in the labor market and sometimes in
+educational opportunities.
+7.  Inflation - general increase in all prices.
+a.  CPI - is the measure used  to monitor inflation.b.  Rule of 70 --  the number of year s for the price level to double = 70/%annual
+rate of increase.
+8.  Demand - pull inflation
+Using a naive aggregate demand - aggregate s upply model (similar to the supply
+and demand diagrams for a market, except the supply is total output in allmarkets and demand is total demand in all markets, as the aggregate demand
+shifts outwards prices increase, but so does output.
+9.  Cost - push inflation - again usi ng a naive aggregate supply - aggregate demand
+approach cost-push inflation results from a decrease in aggregate supply:
+10a.  pure inflation results from an incr ease in aggregate demand that is equal to a
+decrease in aggregate supply:
+10.  Effects of inflation impact different peopl e in different ways.  If inflation is fully
+anticipated and people can adjust their nominal income to account for inflation then
+there will be no adverse effects, however, if  people cannot adjust their nominal income
+or the inflation is unanticipated those i ndividual will see their standard of living eroded.
+a.  Debitors typically benefit from inflation because they can pay loans-off in the
+future with money that is worth less, t hereby creditors are harmed by inflation.
+11b.  Inflation typically creates expec tations among people of increasing prices,
+which may contribute to future inflation.
+c.  Savers generally lose money because of inflation if the rate of return on their
+savings is not sufficient to cover the inflation rate.
+124.  Aggregate Supply & Aggregate Demand
+Lecture Notes
+1.  Aggregate demand is a downward sloping f unction that shows the inverse relation
+between the price level and domestic output.  The reasons that the aggregate demand
+curve slopes down and to the right differs from the reasoning offered for individual
+market demand curves (substitution & income effects - these do not work withaggregates).  The reasons for the dow nward sloping aggregate demand curve are:
+a.  wealth or real balance effect - higher  price level reduces the real purchasing
+power of consumers' accumulated financial assets.
+b.  interest-rate effect - assuming a fi xed supply of money, an increase in the
+price level increases interest rates, which in turn, reduces interest sensitiveexpenditures on goods and services (e.g., consumer durables - cars etc.
+c. foreign purchases effect - if prices of domestic goods rise relative to foreign
+goods, domestic consumers will purchase more foreign goods as substitutes.
+132.  Determinants of aggregate demand - factor s that shift the aggregate demand curve.
+a.  expectations  concerning real income  or inflation (including profits from 
+investments in business sector),
+b.  Consumer indebtedness, c.  Personal taxes, d.  Interest rates, e.  Changes in technology, f.  Amount of current excess capacity in industry,g.  Government spending, h.  Net exports,i.  National income abroad, andj.  Exchange rates.
+3.  Aggregate Supply shows amount of domesti c output available at each price level. 
+The aggregate supply curve has three ranges, the Keynesian range (horizontal), the
+intermediate range (curved), and t he classical range (vertical).
+a.  Keynesian range - is the result of  downward rigidity in prices and wages.
+b.  Classical range - classical economis ts believed that the aggregate supply
+curve goes vertical at the fu ll employment level of output.
+14c.  Intermediate range - is the range in aggregate supply where rising output is
+accompanied by rising price levels.
+4.  Determinants of Aggregate Supply cause the aggregate supply curve to shift.
+a.  Changes in input prices,b.  Changes in input productivity, andc.  Changes in the legal/institutional environment.
+5.  Macroeconomic Equilibrium - in tersection of aggregate supply and aggregate
+demand:
+6.  Ratchet Effect - is where there is  a decrease in aggregate demand, that producers
+are unwilling to accept lower prices (rigi d prices and wages) therefore there is a
+ratcheting of the aggregate supply curve (dec rease in the intermediate and Keynesian
+ranges) which will keep the price level the same, but with reduced output.  In other
+words, there can be increases in prices (f orward) but no decreases (but not backward).
+15An increase in aggregate demand from AD1 to AD2 moves the equilibrium from point a
+to point b with real output and the price leve l increasing.  However, if prices are
+inflexible downward, then a decline in  aggregate demand from AD2 to AD1 will not
+restore the economy to its original equilibrium  at point a.  Instead, the new equilibrium
+will be at point c with the price level remain ing at the higher level and output falling to
+the lowest point.  The ratchet effect means  that the aggregate supply curve has shifted
+upward (a decrease) in both the Keynesian and intermediate ranges.
+165.  Classical and Keynesian Models
+Lecture Notes
+1.  Classical theory of employment  (macroeconomics) rests upon two founding
+principles, these are:
+a.  underspending unlikely - spending in amounts less than sufficient to purchase
+the full employment level of output is not likely.
+b.  even if underspending should occur, then price/wage flexibility will prevent
+output declines because prices and wages  would adjust to keep the economy at
+the full employment level of output.
+2.  Say's Law  "Supply creates its own demand" (well not exactly)  
+a. in other words, every level of output creates enough income to purchase
+exactly what was produced.
+b.  among others, there is one glari ng omission in Say's Law -- what about
+savings?
+3.  Savings
+a.  output produces incomes, but savings is a leakageb.  savings give rise to  investment  and the interest rates are what links savings
+and investment.
+4.  Wage-Price flexibility
+a.  the classicists believed that a laissez faire economy would result in
+macroeconomic equilibria and that only the government could cause disequilibria.
+5.  Keynesian Model - beginning in the 1930s the classical models failed to explain what
+was going on, hence a new model was developed -- the Keynesian Model.
+a.  full employment is not guarant eed, because interest motivates both
+consumers & businesses differently - just because households save does notguarantee businesses will invest.
+b.  price-wage rigidity, rather t han flexibility was assumed by Keynes
+176.  The Consumption schedule - income & consumption 
+a.  consumption schedule -  the 45 degree line is every point where disposable
+income is totally consumed.
+b.  saving schedule - shows the amount of savings associated with the
+consumption function.
+The consumption schedule intersects the 45 degree line at 400 in disposable
+income, this is also where the savings func tion intersects zero (in the graph below the
+consumption function).  To the left of the intersection of the consumption function and
+the 45 degree line, the consumption func tion lies above the 45 degree line.  The
+distance between the 45 degree line and the consumption schedule is dissavings,
+shown in the savings schedule graph by the savi ngs function falling below zero.  To the
+right of the intersection of the cons umption function with the 45 degree line the
+consumption schedule is below the 45 degree li ne.  The distance that the consumption
+function is below the 45 degree line is called savings, shown in the bottom graph by thesavings function rising above zero.
+b. Marginal Propensity to Consume (MPC)  is the proportion of any increase in
+disposable income spent on consumption (if all is spent MPC is 1, if none isspent MPC is zero).  The Marginal Propensity to Save (MPS) is the proportion ofany increase in disposable income saved.  The relation between MPC and MPSis:
+1.  MPC + MPS = 1
+18c.  The slope (rise divided by the run) of  the consumption function is the MPC
+and the slope of the savings function is  the MPS.  Add the slope of the
+consumption function  (8/10) to the slope of the savings function (2/10) and they
+equal one (10/10).
+d.  The Average Propensity to Consume (APC) is total consumption divided by
+total income, Average Propensity to Save (APS) is total savings divided by totalincome.  Again, if income can be either saved or consumed (and nothing else)then the following relation holds:
+1.  APC + APS = 1
+7.  The nonincome determinants of consumpt ion and saving are (these cause shifts in
+the consumption and saving schedules):
+a.  Wealth, 
+b.  Prices, c.  Expectations concerning future prices, incomes and availability of
+commodities,
+d.  Consumer debts, ande.  Taxes.
+8.  Investment
+a.  investment demand curve is downward sloping:
+19b.  determinants of investment demand are:
+1.   acquisition, maintenance & operating costs, 2.   business taxes,3.  technology, 4.  stock of capital on hand, and5.  expectations concerning profits in future.
+c.  Autonomous (determined outside of system) v. induced investment (function
+of GDP):
+1.  Instability in investment has marked U.S. economic history.
+202.  Causes of this instability are:
+ a.  Variations in the durability of capital, 
+b.   Irregularity of innovation, c.   Variability of profits, andd.   Expectations of investors.
+216.  Equilibrium in the Keynesian Model
+Lecture Notes
+1.  Equilibrium GDP - is that output that will create total spending just sufficient to buy
+that output (where aggregate expenditure  schedule intersects 45 degree line).
+a.  Disequilibrium - where spending is insufficient (recessionary gap) or too high
+for level of output (inflationary gap).
+2.  Expenditures - Output Approach
+a.  Y = C + I + G + X is the identity for income
+where Y = GDP, C = Consumption, I = Investment, G= Governmentexpenditures, and X = Net exports  (exports minus imports)
+The equilibrium level of GDP is indicated above where C + I is equal to the 45
+degree line.  Investment in this model is  autonomous and the amount of investment is
+the vertical distance between the C and the C + I lines.  This model assumes nogovernment and that net exports are zero.
+3.  Leakages - Injections Approach relies on the equality of investment and savings at
+equilibrium.
+a.  I = S is equilibrium in the leakages - injections approach. 
+22b.  planned v. actual investment, the reason that the leakages - injection
+approach works is that planned investment must equal savings.  Inventories can
+increase beyond that planned, hence output that is not purchased which is
+recessionary; or intended inventories c an be depleted which is inflationary.  
+The original equilibrium is where I1 is equal to S and that level of GDP is shown
+with the solid indicator line.  If we experi ence a decrease in investment we move down
+to I2 and if an increase in investment  is observed it will be observed at I3.
+4.  If there is an increase in expenditures, there will be a respending effect.  In other
+words, if $10 is injected into the system, then it  is income to someone.  That first person
+will spend a portion of the income and save a portion.  If MPC is .90 then the first
+individual will save $1 and spend $9.00.  The second person receives $9.00 in incomeand will spend $8.10 and save $0.90.  This pr ocess continues until there is no money
+left to be spent.  Instead of summing all of  the income, expenditures, and/or savings
+there is a short-hand method of determining t he total effect  --  this is called the
+Multiplier, which is:
+a.  Multiplier M = 1/1-MPC or 1/MPS
+b.  significance - any increase in expendi tures will have a multiple effect on the
+GDP.
+5.  Paradox of thrift - the curious observation that if society tries to save more it may
+actually save the same amount - unless invest ment moves up as a result of the savings,
+all that happens is that GDP declines and if investment is autonomous then savings
+remain the same.
+236.  Full Employment level of GDP may not be where the aggregate expenditures line
+intersects the 45 degree line.  There are two possibilities, (1) a recessionary gap or (2)
+an inflationary gap, both are illustrated below.
+a.  Recessionary gap
+The distance between the C + I line and the 45 degree line along the dashed
+indicator line is the recessionary gap.  The dotted line shows the currentmacroeconomic equilibrium.
+b.  Inflationary gap
+The distance between the C + I line and the 45 degree line along the dashed
+indicator line is the inflationary gap.  The dotted indicator line shows the currentmacroeconomic equilibrium.
+247.  Reconciling AD/AS with Keynesian Cr oss the various C + I and 45 degree line
+intersections, if multiplied by the appropr iate price level will yield one point on the
+aggregate demand curve.  Shifts in aggregat e demand can be shown with holding the
+price level constant and showing increases or decreases in C + I in the Keynesian
+Cross model.  Both models can be used to analyze essentially the samemacroeconomic events.
+257.  Fiscal Policy
+Lecture Notes
+1.  Discretionary Fiscal Policy - involv es government expenditures and/or taxes to
+stabilize the economy.
+a.  Employment Act of 1946 - forma lized the government's responsibility in
+promoting economic stability.
+b.  simplifying assumptions for the analyses presented here:
+1.  exogenous I & X,2.  G does initially impact private decisions,3.  all taxes are personal taxes,4.  some exogenous taxes collected,5.  no monetary effects, fi xed initial price level, and
+6.  fiscal policy impacts only demand side.
+2.  Changes in Government Expenditures - can be made for several reasons:
+a.  Stabilization of the economy,
+1.  To close a recessionary gap the government must spend an amount
+that time the multiplier will equal the total gap.
+2.  To close an inflationary gap the government must cut expenditures by
+an amount that times the multip lier will equal the inflationary gap.
+b.  Political goals, andc.  Provision of necessary goods & services.
+26An increased government expenditure of $20 billion results in an increase in GDP
+of $80 billion with an MPC of .75, hence a multiplier of 4.
+3.  Taxation effects both consumption and savings.
+a.  If the government uses a lump sum tax increase to reduce an inflationary gap
+the reduction in GDP occurs thusly:
+1.  The lump sum tax must be multiplied by the MPC to obtain the
+reduction in consumption;
+2.  The reduction in consumption is  then multiplied by the multiplier.
+b.  A decrease in taxes works the same way, the total impact is the lump sum
+reduction times the MPC to obtain the increas e in consumption, which is, in turn,
+multiplied by the multiplier to obtain the full impact on GDP.
+c.  A short-cut method with taxes is to ca lculate the multiplier, as you would with
+an increase in government expenditures and deduct one from it.
+4.  The balanced budget multiplier is always one.  
+a.  Occurs when the amount of gover nment expenditures goes up by the same
+amount that a lump sum tax is increased.
+b.  That is because only the initial expenditure increases GDP and the remaining
+multiplier effect is offset by taxation.
+275.  Tax structure refers to the burden of the tax:
+a.  progressive is where the effectiv e tax rate increases with ability to pay,
+b.  regressive is where the effective tax rate increases as ability to pay
+decreases,
+c.  proportional is where a fixed proporti on of ability to pay is taken in taxes.
+6.  Automatic stabilizers help to smooth business cycles without further legislative
+action:
+a.  Progressive income taxes,b.  Unemployment compensation,c.  Government entitlement programs
+7.  Fiscal Lag - there are numerous lags involved with the implementation of fiscal
+policy.  It is not uncommon for fiscal policy to take 2 or 3 years to have a noticeableeffect, after Congress begins to enact fiscal measures.
+a.  Recognition lag - how long to start to react.b.  Administrative lag - how long to have legislation enacted & implemented.
+c.  Operational lag - how long it takes to have effects in economy.
+8.  Politics and Fiscal Policy.
+a.  Public choice economists claim that  politicians maximize their own utility by
+legislative action.
+b.  Log-rolling and negotiations results in many bills that impose costs.
+9.  Government deficits and crowding - ou t.  It is alleged that private spending is
+displaced when the government borrows to finance spending:
+a.  Ricardian Equivalence - deficit financing same effect on GDP as increased
+tax.
+2810.  Open economy problems.  Because there is a foreign sector that impacts GDP
+there are potential problems for fiscal policy arising from foreign sources.
+a.  increased interest - net export effect 
+1.  An increase in the interest rate domestically will attract foreign capital,
+but this increases the demand for dollars which increases their value andthereby reduces exports, hence GDP.
+b.  foreign shocks - in addition to currency exchange rates.  
+1.  Oil crises increased co sts of production in the U.S.
+298. Economic Growth
+Lecture Notes
+1. Economic growth is defined in one of two ways, as a total (hence GDP) or as a per
+capita (hence GDP per capita).  Each of these definitions has its uses.  The second
+definition is of the greatest importance in defining the standar d of living in a country.  
+a.  The following production possibilities frontier shows economic growth in a
+simple two commodity economy.
+b.  The assumptions underpinning the produc tion possibilities model is that there
+are only two commodities produced, ther e is a fixed technology and number of
+resources, and these resources are us ed in an economically efficient manner.
+2.   Developing economies are classified into two categories:
+a.  middle-income countries $760 to $9300 per capita GDP in 2000
+b.  low-income countries those below $760 per capita GDP in 2000.   
+301.  The majority of Latin countries  are middle-income countries and the
+majority of sub-Saharan African count ries and South-Asian countries are
+low income countries.  The industrial,  high income countries are the U.S.,
+Canada, Australia, New Zealand, Japan, and Western Europe.
+c.   Growth-paths are the historical tracing of how an economy moved from
+being less developed to a developed economy.  The prerequisites to
+economic growth, which include:
+(1) Establishing and implementing domestic rules of law,(2) Opening the economy to international trade,(3) Controlling population growth,(4) Encouraging foreign direct investment,(5) Building human capital,(6) Reasonable monetary institutions and markets, (7) Minimizing the role of the militar y both domestically and internationally,
+and
+(8) Encouraging the growth of the pr ivate sector relative to the public
+sector.
+31d.  Aggregate demand, aggregate supply ov er time shows accelerating economic
+growth.  
+1.  The following graph translates the AS/AD model into the secular trend.
+2. In Indonesia, India, and several middle-eastern and African countries
+there are significant problems with co rruption, and capital flight.  It is
+nearly impossible to attract capital to a developing nation, if the
+government is corrupt and there is littl e in the way of political stability or
+the rule of law.  In the late 1990s there were stories coming out of
+Indonesia where high government offici als were leaving the country with
+several suitcases of U.S. dollars – classic capital flight.
+ e.    Economic growth is a long-term secular trend.   
+3.  The accumulation of capital in the Unit ed States was both domestic capital, and the
+attraction of foreign capital. 
+a.  Political instability in Europeb.  U.S. natural resourcesc.  Rule of law and political stabilityd.  Innovation
+324.  The Asian Tiger economies, China, Ta iwan, Indonesia, South Korea, Malaysia, the
+Philippines, and Thailand all experienced very substantial growth.  
+a.  Much of this growth depended on two things, low wage labor for
+manufacturing, particularly in the electronics industry, and exports.  
+  
+5.  The majority of the world’s population lives in low-income countries.
+a.  Indebted,
+1.  Help here is important
+b.  Population outgrowing the economy,c.  Narcotic effect of foreign aidd.  Brain Draine.  Political instability
+1.  Arms trade
+f.  Capital Flightg.  International Trade
+339.  Money and Banking
+Lecture Notes
+1.  Functions of Money - there are three functions of money:
+a.  Medium of exchange - accepted as "legal tender" or something of general and
+specified value.
+1.  Use avoids reliance on barter.2.  Barter requires a coincidence of wants and severely complicates a
+market economy.
+b.  Measure of value - permits value to be stated in terms of a standard and
+universally understood standard.
+c.  Store of value - can be saved with li ttle risk, chance of spoilage and virtually
+no cost and later exchanged for commodi ties without these positive storage
+characteristics.
+2.  Supply of money
+a.  There are numerous definitions of  money M1 through M3 most commonly
+used.
+1.  M1 is currency + checkable deposits2.  M2 is M1 + noncheckable savings account, time deposits of less
+$100,000, Money Market Deposit A ccounts, and Money Market Mutual
+Funds.
+3.  M3 is M2 + large time deposit (larger than $100,000).
+3.  Near Money - are items that fulfill porti ons of the requirements of the functions of
+money.
+34a.  Credit cards - fulfill exchange function,  but are not a measure of value and if
+there is a credit line, can be used to store value.
+b.  Other forms of near money:
+1.  Precious metals - store of value, but not easily exchanged2.  Stocks and Bonds - earnings instru ments, but can be used as store of
+value.
+c.  Implications for near money - stability, spending habits & policy
+4.  What gives money value
+a.  No more gold standard
+1.  Nixon eliminated gold standard
+b.  The Value of money depends upon:
+1.  acceptability for payment,2.  because the government claims it is legal tender, and3.  its relative scarcity.
+5.  Value of dollar  =  D = 1/P6.  Demand for Money - three components of money demand:
+a.  Transactions demandb.  Asset demandc.  Total demand
+35The money supply curve is vertical because the supply of money is exogenously
+determined by the Federal Reserve.  The money demand curve slopes downward andto the right.  The intersection of the money demand and money supply curvesrepresents equilibrium in the money market and determines the interest rate (price of
+money).
+7.  Money market
+a.  With bonds that pay a specifi ed interest payment per quarter then:
+1.  interest rate and value of bond inversely related
+8.  U.S. Financial System
+a.  FDIC - Federal Deposit Insuranc e Corporation - guarantees bank deposits.
+b.  Federal Reserve System - is comprised of member banks.  The Board of
+Governors and Chairman are nominated by t he President of United States.  The
+structure of the system is:
+1.  Board of Governors2.  Open Market Committee3.  Federal Advisory Council4.  12 regions
+36c.  Functions
+1.  Set reserves requirements,2.  Check clearing services,3.  Fiscal agents for U.S. government,4.  Supervision of banks,5.  Control money supply through FOMC,
+9.  Moral hazard - insuring reduces insured's incentive to assure risk does not happen
+3710.  Multiple Expansion of Money
+Lecture Notes
+1.  Balance sheet (T accounts --  assets = liabilities + net worth)
+a.  is nothing more than a convenient reporting tool.
+2.  Fractional Reserve Requirements
+a.  Goldsmiths used to issue paper money receipts, backed by stocks of gold. 
+The stocks of gold acted as a reserve to assure payment if the paper claims werepresented for payment.
+1.   Genghis Khan first issued paper money in the thirteenth century - it
+was backed by nothing exc ept the Khan's authority. 
+b.  The U.S. did not have a central banking system from the 1820 through 1914. 
+In the early part of this century several financial panics pointed to the need for acentral banking and financial regulation.
+1.  States and private companies used to issue paper money.  2.  In the early days of U.S. hist ory Spanish silver coins were widely
+circulated in the U.S.
+3.  The first U.S. paper money was issued during the Civil War (The 
+Greenback Act), which included fractional currency (paper dimes &nickels!).
+c.  Today, the Federal Reserve requires banks to keep a portion of its deposits
+as reserves.
+1.  purposes to keep banks solvent & prevent financial panics
+3. RRR (Required Reserve Ratio) and multip le expansion of money supply through T
+accounts
+a.  How reserves are kept
+381.  Loans from Fed - discount rate at which Fed loans reserves to
+members
+2.  Vault cash3.  Deposits with Fed 4.  Fed funds rate - the rate at which members loan each other reserves
+b.  RRR = Required reserve/demand deposit liabilities
+c.  actual, required, and excess reserves
+4.  Money created through deposit/loan redepositing
+a.  Money is created by a bank receiving a deposit, and then loaning that non-
+reserve portion of the deposit, which is deposited and loans made against thosedeposits.
+1.  If the required reserve ratio is .10, then a bank must retain 10% of each
+deposit as a reserve and can loan 90% of the deposit; the multipleexpansion of money, assuming a required reserve ratio of .10, istherefore: 
+Deposit   Loan  $10.00   9.00  
+     9.00   8.10     8.10   7.29       .     .       .     .  _______ _______$ 100.00 $90.00
+Total new money is the initial deposit of $10 + $90 of multiple expansion for a
+total of $100.00 in new money.
+5.  Money multiplier Mm = 1/RRR
+a.  Is the short-hand method of calculat ing the entries in banks' T accounts and
+shows how much an initial injection of money into the system generates in total
+money supply.
+39b.  With a required reserve ratio of .05 the money multiplier is 20 & with a
+required reserve ratio of .20 the money multiplier is 5.
+c.  the Federal Reserve needs to inject onl y that fraction of money that time the
+multiplier will increase the money supply to the desired levels.
+4011.  Federal Reserve and Monetary Policy
+Lecture Notes
+1.  Monetary policy, defined and objectives
+a.  Monetary policy is carried out by the Federal Reserve System and is focused
+on controlling the money supply.
+b.  The fundamental objective of monet ary policy is to assist the economy in
+attaining a full employment, non-inflationary equilibrium.
+2.  Tools of Monetary Policy
+a.  Open Market Operations is the se lling and buying of U.S. treasury obligations
+in the open market.
+b.  Expansionary monetary policy involves the buying of bonds.
+1.  The Fed buying bonds, it puts money into the hands of those who had
+held bonds.
+c.  Contractionary monetary poli cy involves the selling of bonds.
+1.  The Fed sells bonds it removes money from the system and replaces it
+with bonds.
+3.  Required Reserve Ratio - the Fed can raise or lower the required reserve ratio.
+a.  Increasing the required reserve rati o, reduces the money multiplier, hence
+reduces the amount by which multiple  expansions of the money supply can
+occur.
+1.  decreasing the required reserve ratio increases the money multiplier,
+and permits more multiple expansion of the money supply.
+4.  The Discount Rate is the rate at which the Fed will loan reserves to member banks
+for short periods of time.
+415.  Velocity of Money - is how often the money supply turns-over.
+a.  The quantity theory of money is:  MV = PQ
+1.  This equation has velocity (V) which is nearly constant and output (Q)
+which grows slowly, so what happens to the money supply (M) should bedirectly reflect in the price level (P).
+6.  Target Dilemma in Monetary Policy
+a.  Interest rates and the business cycl e may present a dilemma.  Expansionary
+monetary policy may result in higher interest rates which dampen expansionary
+policies.
+b.  Fiscal and monetary policie s may also be contradictory.
+7.  Easy Money - lowering interest rates, expanding money supply.
+a.  mitigate recession and stimulate growth.
+8.  Tight Money - increasing interest rates, contracting money supply.
+a.  mitigate inflation and slow growth.
+9.  Monetary rules - Milton Friedman
+a.  Discretionary monetary policy often mi sses targets in U.S. monetary history
+b.  Suspicion of Fed and FOMC – perhaps overblown
+4212.  Economic Stability and Policy
+Lecture Notes
+1.  Inflation, Unemployment and Economic Policy
+a.  The misery index is the inflat ion rate plus the unemployment rate.
+2.  The Phillips Curve is a statistical relation between unemployment and inflation
+named for A. W. Phillips who examined the relation in the United Kingdom andpublished his results in 1958.  (Actually Irving Fisher had done earlier work on thesubject in 1926).
+a.  Short run trade-off
+Often used to support activitist role for government, however, the short-run trade-
+off view of the Phillips curve demonstrates that there is a cruel choice between
+increased inflation or increased unemploym ent, but low inflation and unemployment
+together are not possible.
+b. Long run Phillips Curve is alleged to be vertical at the natural rate of 
+unemployment.
+43This long-run view of the Phillips Curve is also called the Natural Rate
+Hypothesis.  It is based on the idea that peopl e constantly adapt to current economic
+conditions and that their expectations are subject to "adaptive" revisions almost
+constantly.  If this is the case, then business and consumers cannot be fooled intothinking that there is a reason for unemploy ment to cure inflation or vice versa.
+c.  Possible positive sloping has hypot hesized by Milton Friedman.  Friedman
+was of the opinion that the may be a tr ansitional Phillips curve while people adapt
+both their expectations and institutions to new economic realities.  The positively
+sloped Phillips curve is show in the following picture:
+The positively sloped transitional Phillip s Curve is consistent with the
+observations of the early 1980s when both high rates of unemployment existed together
+with high rates of inflation -- a condition called stagflation.
+44 
+d.  Cruel choices only exist in the case  of the short-run trade-off view of the
+Phillips Curve.  However, there maybe a "Lady and Tiger Dilemma" for policymakers relying on the Phillips Curve to make policy decisions.
+3.  Rational expectations is a theory that businesses and consumers will be able to
+accurately forecast prices (and other rele vant economic variables).  If the accuracy of
+consumers' and business expectations permit them to behave as though they knowwhat will happen, then it is argued that only a ve rtical Phillips Curve is possible, as long
+as political and economic institutions remain stable. 
+4.  Market policies are concerned with co rrecting specific observed economic woes.
+a.  Equity policies are designed to assure  "a social safety net" at the minimum
+and at the liberal extreme to redistribute income.
+1.  The Lorenz Curve and Gini Coefficients are used to measure income
+distribution in economies.
+The Lorenz curve maps the distribution of income among across the population. 
+The 45 degree line shows what the distribution of income would be if income wasuniformly distributed across the population.  However, the Lorenz curve drops down
+below the 45 degree line showing that poorer people receive less than rich people.
+The Gini coefficient is the percent age of the triangle mapped out by the 45
+degree line, the indicator line from the t op of the 45 degree line to the percentage of
+income axis, and the percentage of income axis that is accounted for by the area
+between the Lorenz curve and the 45 degree line.  If the Gini coefficient is near zero,
+45income is close to uniformly distributed; if  is near 1 then income is mal-distributed.
+b.  Productivity is also the subject of specific policies.  The Investment Tax
+Credit, WIN program, and various state and federal training programs are
+focused increasing productivity.
+c.  Trade barriers have been reduced through NAFTA and GATT in hopes of
+fostering more U.S. exports.
+5.  Wage-Price Policies
+a.  Attempts have been made to directly control inflation through price controls,
+this seemed to work reasonably well during World War II.  Carter tried voluntaryguidelines that failed, and Nixon tried cont rols that simply were a disaster.
+6.  Supply Side Economics of the Reagan Admi nistration were based on the theory that
+stimulating the economy would prevent deficits as government  spending for the military
+was increased.  This failed theory was based on something called the Laffer Curve.
+a.  Laffer Curve (named for Arthur Laffer) is a relation between tax rates and tax
+receipts.  Laffer's idea was rather simp le, he posited that there was optimal tax
+rate, above which receipt went down and below which receipts went down.  TheLaffer curve is shown below:
+The Laffer Curve shows that the same tax receipts will be collected at the rates
+labelled both "too high" and "too low."  What  the supply-siders thought was that tax
+46rates were too high and that a reduction in tax rates would permit them to slide down
+and to the right on the Laffer Curve and collect more revenue.  In other words, theythought the tax rate was above the optimal.  We  got a big tax rate reduction and found,
+unfortunately, that we were below t he optimal and tax revenues fell, while we
+dramatically increased the budget.  In other words, record-breaking deficits and debt.
+b.  There were other tenets of the s upply-side view of the world.  These
+economists thought there was too much government regulation.  After Jimmy
+Carter de-regulated trucking and airlines, there was much rhetoric and little
+action to de-regulate other aspec ts of American economic life.
+7.  Unfortunately, the realitie s of American economic policy is  that politics is often main
+motivation for policy.
+a.  Tax cuts are popular, tax increases are not.b.  Deficits are a natural propensity for politicians unwilling to cut pork from their
+own districts and unwilling to increase taxes.
+8. Politics - economics provides a scientif ic approach to understanding, politics is the
+“art of the possible” what is good economica lly maybe horrible politically and vice versa
+a.  Public choice literature 
+1.  Politicians act in self-interest just like the rest of us
+4713.  Epilogue
+Lecture Notes
+1.  Why study Macroeconomics:
+a.  Knowledge is prerequisite for democracy
+1.  Founding fathers thought that  knowledge was what prevented
+despotism  – Jefferson and the free Press
+b.  Business conditions
+1.  Environment in which business is conducted, importance cannot be
+minimized in a practical sense.
+2.  Becoming more important as economy becomes more global –
+exchange rates, reasons for shifting fortunes etc.
+c.  Self-preservation – very powerful incentives
+1.  Individual economic planni ng – 401K, investments, etc.
+2.  Understanding markets requi res understanding the environment in
+which they work – full circle to a and b above
+2.  Futurism, macroeconomic variables ar e powerful determinants of the future well-
+being of societies and people.
+a.  Commodities - Oil (energy in gener al); metals; natural resources; etc.
+b.  Climate changes impacting markets and whole areasc.  Technological changes - products and processes available today which didn’t
+exist 10 years ago
+d.   Political and institutional changes - terrorism, foreign policy etc.e.   Unanticipated issues and reactions – t he historical record shows that much of
+this shapes what the modern world is.
+483.  Economics as a career
+a.  Economics majors, areas in which they work, one of fastest growing majors in
+U.S. universities
+b.  Graduate training almost required t oday - economic foundations in business,
+law, teaching, etc.
+c.  Not dependent on institutional arrangements
+49

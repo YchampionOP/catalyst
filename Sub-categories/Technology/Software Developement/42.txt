@@ -1,0 +1,310 @@
+Programming Languages:
+High-level programming languages
+Low-level programming languages
+Interpreted vs. compiled languages
+Static typing vs. dynamic typing
+Procedural programming
+Object-oriented programming (OOP)
+Functional programming
+Declarative programming
+Scripting languages
+Domain-specific languages (DSL)
+General-purpose programming languages
+Assembly language
+Garbage collection
+Memory management
+Strongly typed vs. weakly typed languages
+Syntax vs. semantics
+Just-in-time (JIT) compilation
+Ahead-of-time (AOT) compilation
+Type inference
+Immutable data structures
+Lambda expressions
+Popular Programming Languages:
+
+Python:
+Dynamic typing
+Python interpreters (CPython, PyPy)
+List comprehensions
+Decorators
+Python libraries (NumPy, Pandas, Matplotlib, Flask, Django)
+Java:
+JVM (Java Virtual Machine)
+Java Standard Edition (Java SE)
+Java Enterprise Edition (Java EE)
+Spring Framework
+JUnit for testing
+Garbage collection in Java
+C/C++:
+Pointers
+Memory allocation (malloc, calloc)
+Object-oriented features in C++
+Standard Template Library (STL)
+C++11/14/17/20 standards
+JavaScript:
+Event-driven programming
+Asynchronous programming (Promises, async/await)
+JavaScript frameworks (React, Angular, Vue.js)
+Node.js
+DOM manipulation
+TypeScript:
+Superset of JavaScript
+Static typing in TypeScript
+TypeScript interfaces
+TypeScript with React
+Ruby:
+Ruby on Rails (RoR)
+Metaprogramming in Ruby
+RubyGems package manager
+PHP:
+Server-side scripting
+PHP frameworks (Laravel, Symfony)
+Composer dependency manager
+Go (Golang):
+Goroutines
+Go concurrency model
+Microservices with Go
+Swift:
+Memory safety in Swift
+SwiftUI framework
+iOS development with Swift
+Kotlin:
+JVM compatibility
+Android development with Kotlin
+Coroutines in Kotlin
+Rust:
+Memory safety without garbage collection
+Borrow checker
+Zero-cost abstractions
+Concurrency in Rust
+R:
+Data analysis with R
+R packages (ggplot2, dplyr)
+Statistical computing
+SQL:
+Structured Query Language
+SQL vs. NoSQL
+Relational database management systems (RDBMS)
+ACID transactions
+Shell scripting:
+Bash scripting
+Automating tasks with shell scripts
+Command-line interface (CLI)
+Scala:
+JVM-based functional programming
+Apache Spark with Scala
+Scala case classes
+Software Engineering:
+Software development lifecycle (SDLC)
+Waterfall model
+Incremental development
+Prototyping model
+V-model
+Spiral model
+Agile vs. traditional software development
+Requirement analysis
+Functional requirements vs. non-functional requirements
+Use case diagrams
+User stories
+Software design principles (SOLID, DRY, KISS, YAGNI)
+Design patterns (Singleton, Factory, Observer, Strategy, Adapter, MVC, MVP)
+Object-oriented design
+UML (Unified Modeling Language)
+Class diagrams
+Sequence diagrams
+State diagrams
+Software architecture patterns (Monolithic, Microservices, Layered, Event-driven)
+Distributed systems architecture
+Scalability in software systems
+High availability (HA) in software systems
+Software testing methodologies
+Unit testing
+Integration testing
+System testing
+Regression testing
+Performance testing
+Load testing
+Stress testing
+Usability testing
+Acceptance testing (UAT)
+Code quality metrics
+Code reviews
+Test-driven development (TDD)
+Behavior-driven development (BDD)
+Continuous integration (CI)
+Continuous delivery (CD)
+DevOps practices
+Refactoring
+Technical debt
+Legacy code management
+Version control systems (Git, SVN, Mercurial)
+Git branching strategies (Gitflow, Trunk-based development)
+Software metrics (Cyclomatic complexity, Coupling, Cohesion)
+Dependency management
+Software maintenance
+Software documentation (Technical documentation, API documentation)
+Code comments and best practices
+Error handling and exception management
+Debugging techniques
+Software project management
+Code refactoring
+Estimation techniques (Story points, Function points)
+Software reliability engineering
+Software performance optimization
+Memory leaks and garbage collection
+Security best practices (OWASP Top 10)
+Licensing in software development (Open source vs. proprietary)
+Development Tools:
+Version Control:
+Git
+GitHub
+GitLab
+Bitbucket
+SVN (Apache Subversion)
+Branching and merging strategies
+IDEs and Code Editors:
+Visual Studio Code
+IntelliJ IDEA
+PyCharm
+Eclipse
+NetBeans
+Sublime Text
+Atom
+Build Tools:
+Maven (Java)
+Gradle (Java, Kotlin)
+Make (C/C++)
+Ant (Java)
+MSBuild (.NET)
+CMake (C/C++)
+Continuous Integration (CI) Tools:
+Jenkins
+Travis CI
+CircleCI
+GitHub Actions
+GitLab CI/CD
+Bamboo
+Package Managers:
+npm (Node.js)
+pip (Python)
+Maven Central Repository (Java)
+NuGet (.NET)
+Homebrew (macOS)
+Bundler (Ruby)
+Cargo (Rust)
+Composer (PHP)
+Gradle (Java, Kotlin)
+Chocolatey (Windows)
+Containerization & Orchestration:
+Docker
+Kubernetes
+Docker Compose
+OpenShift
+Helm
+Container orchestration
+Cloud Platforms:
+AWS (Amazon Web Services)
+Azure
+Google Cloud Platform (GCP)
+Heroku
+DigitalOcean
+Serverless computing
+Cloud storage (S3, Blob Storage, Google Cloud Storage)
+Testing Frameworks:
+JUnit (Java)
+PyTest (Python)
+Mocha (JavaScript)
+Jasmine (JavaScript)
+Selenium (Automated UI testing)
+Postman (API testing)
+Robot Framework (Test automation)
+TestNG (Java)
+Cucumber (BDD testing)
+API Development Tools:
+RESTful APIs
+SOAP APIs
+GraphQL
+Swagger (OpenAPI)
+Postman
+API gateways
+Performance Monitoring Tools:
+Prometheus
+Grafana
+New Relic
+Datadog
+Sentry
+ELK Stack (Elasticsearch, Logstash, Kibana)
+Collaboration Tools:
+Jira (Agile project management)
+Confluence (Documentation)
+Trello (Task management)
+Slack (Communication)
+Microsoft Teams
+Zoom
+Asana
+Monday.com
+Database Management:
+SQL databases (MySQL, PostgreSQL, SQLite, SQL Server)
+NoSQL databases (MongoDB, Cassandra, Redis, Couchbase)
+ORMs (Hibernate, SQLAlchemy, Entity Framework)
+Database migrations (Liquibase, Flyway)
+Infrastructure as Code (IaC):
+Terraform
+AWS CloudFormation
+Ansible
+Puppet
+Chef
+Vagrant
+SaltStack
+Agile Methodologies:
+Agile software development
+Agile manifesto
+Principles of Agile
+Incremental development
+Iterative development
+Time-boxed development
+Cross-functional teams
+Agile ceremonies
+Daily stand-ups
+Sprint planning
+Sprint review
+Retrospective
+Backlog grooming
+Agile frameworks
+Scrum
+Kanban
+Lean software development
+Extreme programming (XP)
+Feature-driven development (FDD)
+Crystal methodologies
+Scrum roles:
+Product owner
+Scrum master
+Development team
+Product backlog
+Sprint backlog
+Sprint burndown chart
+Velocity in Agile
+Epic
+User stories
+Story points
+Definition of Done (DoD)
+Minimum viable product (MVP)
+Agile scaling frameworks
+SAFe (Scaled Agile Framework)
+LeSS (Large Scale Scrum)
+Disciplined Agile Delivery (DAD)
+Nexus framework
+Agile tools:
+Jira
+Trello
+Monday.com
+VersionOne
+Rally
+Continuous feedback loop
+Pair programming
+Self-organizing teams
+Agile release planning
+Test-driven development (TDD)
+Agile metrics (Cycle time, Lead time)
+Agile coaching

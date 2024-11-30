@@ -1,0 +1,313 @@
+See discussions, st ats, and author pr ofiles f or this public ation at : https://www .researchgate.ne t/public ation/353276970
+Digital Learning Resou rces In Teaching
+Conf erence Paper  · July 2021
+DOI: 10.15405/ epsbs.2021.07.02.25
+CITATION
+1READS
+6,295
+1 author:
+Tatiana V olkodav
+Kuban St ate Univ ersity
+63 PUBLICA TIONS    537 CITATIONS    
+SEE PROFILE
+All c ontent f ollo wing this p age was uplo aded b y Tatiana V olkodav  on 30 July 2021.
+The user has r equest ed enhanc ement of the do wnlo aded file. 
+ European Proceedings of  
+Social and Behavioural Sciences 
+EpSBS 
+ 
+www.europeanproceedings.com  e-ISSN:  2357 -1330 
+ 
+This is an Open Access article distributed under the terms of the Creative Commons Attribution -Noncommercial 4.0 
+Unported License, permitting all non -commercial use, distribution, and reproduction in any medium, provided the original work is 
+properly cited.  
+DOI: 10.15405/epsbs.2021.07.02.25  
+ 
+ 
+EdCW  2020  
+International Scientific and Practical Conference Education in a Changing World: Global 
+Challenges and National Priorities  
+ 
+DIGITAL LEARNING RESOURCES I N TEACHING  
+ 
+ 
+Tatiana Semenovskikh  (a)*, Tatiana Volkodav  (b), Svetlana Shlyapina  (c) 
+*Corresponding author  
+ 
+(a) Tyumen State University, Tyumen, Russia , t.v.semenovskikh@utmn.ru 
+(b) Kuban State University, Krasnodar, Russia , tatianavolkodav@mail.ru  
+(c) Tyumen State University, Tyumen, Russia , s.f.shlyapina@utmn.ru 
+  
+Abstract  
+ 
+This article presents research  findings of the vocational teachers’ experience in reimagining the role of  
+innovative technologies based on the professional development course ‘ Digital Education for Teachers ’ 
+which was held in vocational education institutions of Tyumen Region. The main challenge of the course 
+was to help the teachers develop and integrate their digital competence in vocational ed ucation, allowing 
+them to create electronic educational resources for action oriented activities and work -based learning by 
+combining digital educational materials and learning opportunities for online interaction with 
+conventional methods.  The teachers we re introduced to the use of blended learning models, which enable 
+them to create learning content and impart it choosing appropriate media for a specific learning program.  
+Over the course of eight months the teachers created 490 electronic educational reso urces for specific 
+learning programs and incorporated them into the curriculum content. A total number of 140 teachers have produced digital learning materials for 93 disciplines and tested them in the educational environment 
+whereby enlarging the curricul um scope.  Digital education for teachers expands the role of educators and 
+largely contributes to a gradual transition from traditional forms of interaction with students to electronic 
+educational resources  (EER) designed for  tailoring instruction to individuals' needs and skills for students 
+to become self -directed learners .  
+ 
+2357- 1330 © 20 21 Published by European Publisher. 
+ 
+Keywords: Blended learning, digital education for teachers, e-learning, electronic educational resources  
+  https ://doi.org/10.15405/epsbs.2021.07.02.25  
+Corresponding Author:  Tatiana Semenovskikh  
+Selection and peer -review under responsibility of the Organizing Committee of the conference  
+eISSN : 2357- 1330  
+ 
+ 211 1. Introduction 
+Continuous modernization of the education system allows us to identify those trends that change 
+the approach to pedagogy and education, with digitalization  coming to the fore. Digitalization not merely 
+makes  the education process more flexible, or more adjusted to the realities of the modern day, but also 
+leads to the influx of competitive professionals in the changing digital world.  
+The digitalization of professional education is caused by the need to evolve  the vocational 
+education and training  to reach the milestones  of the modern world. Digital economy  and digital 
+education are defined as Russia’s top priority  reflected in the federal acts . From a policy standpoint, the 
+factors that give rise to the need to build a digital educational process for vocational education and 
+training are the three trends that characterize the formation of a digital society:  
+ 
+ digital economy and new requirements for the employees;  
+ new digital information technologies that shape and promote the digital environment;  
+ digital generation, i.e., a new generation of learners  with specific sociopsychological  traits.  
+ 
+The digitalization of vocational education results in rethinking the status of the teacher who 
+assumes a lea dership role and acts as a leader capable of teaching,  guiding, instructing and educating 
+students  using modern electronic educational technologies, digital learning content and other resources.  A 
+leader's position in promoting effective educational resources is stipulated by : 
+ 
+ a teacher’s willingness to learn how to increase educator -specific digital competences ; 
+ a students’ trust, i.e., the teacher acts as a digital expert in the teaching –learning process ; 
+ the successful incorporation of electronic content  is guaranteed by a certain mindset when the 
+teacher effectively  adapts the newly acquired technologies to the students’ needs . 
+ 
+Building trust between the teacher and the students is difficult, but it starts with virtual empathy. 
+Emotion al dimension in digital literacy has gained scholarly attention. Previous research on digital 
+competence (Ala- Mutka, 2011; Are a & Pessoa, 2012 ; Eshet -Alkalai, 2004 ) has shown that emotional 
+skills are needed for the development of digital literacy in the 2 1st century. According to Ala -Mutka  
+(2010) , emotional dimension is emerging as a significant area of digital competence, – emotional skills 
+are critical for promoting intercultural communication and collaboration in informal learning on social 
+networks. Es het-Alkalai (2004) also emphasizes  the importance of socio- emotional dimension of digital 
+literacy, which encompasses cognitive and metacognitive aspects together with the affective one s. García -
+Pérez  et al.  (2016) argue that empathy has not been studied within the educational context created by new 
+virtual surroundings. Røkenes and Krumsvik (2014) highlight  that digital competence requires both 
+cognitive and emot ional skills to function effectively in the digital environm ent. The leading role of 
+critical thinking skills underlying digital competency is acknowledged by Instefjord  and Munthe  (2017)  
+who describe  the critical and reflective as pects of building new knowledge . 
+  https ://doi.org/10.15405/epsbs.2021.07.02.25  
+Corresponding Author:  Tatiana Semenovskikh  
+Selection and peer -review under responsibility of the Organizing Committee of the conference  
+eISSN : 2357- 1330  
+ 
+ 212 2. Problem Statement  
+The critical  requirements for the Russian Federal State Educational Standard for the vocational 
+education curricula  serve to  stimulate teachers to search for electronic educational resources that meet 
+didactic objectives concurrently updating the learning content. Ther efore, teachers are to be trained to sort 
+out the  educational resources available online as well as to see the possibilities of their use in training 
+sessions. Digital  training for vocational education teachers encourages them to create electronic 
+educatio nal resources appropriate for the changing educational environment.  
+The main challenge of vocational education is to teach problem -solving skills and practical 
+competence. Most professional competencies are formed through practical work or work -based 
+experiences such as internships, job shadows  and apprenticeships. Therefore, combining theoretical and 
+practical knowledge is a paramount task  (Volkodav, 2015) . Theoretical training is carried out through 
+educational and methodological support for the students to study academic disciplines at  their own pace 
+using  digital technologies.  
+Teacher professional development is regarded as an important  approach for the improvement of 
+quality of teaching  (Thurlings  & Perry den Brok, 2017). The professional development co urse is designed 
+to prepare and support teachers as e- teachers, rather than teachers who sporadically  resort to  Internet 
+resources and digital devices for instruction. The professional development courses tend to focus on new 
+paradigms  of technological integration, collaboration, teaching and learning (Rice & Deschaine, 2020).  
+Electronic educational resource is a set of teaching tools that includes structure, subject content 
+and metadata about them. Electronic educational resource represents a kind of digital shell, filled with the 
+content created by the teacher (Semenovskikh, 2014). Electronic educational resources can be classified 
+according to the four criteria: (1) mission; (2) character; (3) technology; (4) functions (Ibragimova &  
+Skobeleva, 2017; Kucher, 2017; Zakieva, 2018 ). Modern educational system relies on orthodox face -to-
+face instruction an d digital learning, which is based on electronic resources  and didactic methodology. 
+This combination of various technologies is  subsequently  synthesized into blended learning (Vasiliev  et 
+al., 2014).  
+Blended learning is not only redesigning the current education landscape, redefining the standards 
+for teaching and learning, it is placing ‘a strong emphasis on work -based learning’ (Semenovskikh, 2015). 
+The application of blended learning (Shlyapina, 2016) in academic context is meant to help vocational 
+education teachers: (a) to enhance the educational opportunities for students by offering more flexible and 
+permeable learning pathways; (b) to tailor learning to each student’s needs by providing different 
+potential pathways to learning while monitoring the pace at which students move forward through the 
+learning materials; (c) to encourage and stimulate students to be independent self -directed learners 
+through the use of electronic resources; (d) to move away from knowledge transfer to interactive knowledge sharing, for instance, by creating joint online presentations with Prezi; (e) to assume the role 
+of a mentor and a digital expert; (f) to build a new information environment and a highly -effective 
+learning environment; (g) to reduce accessibility barriers and enhance  the quality of education.  
+ 
+ https ://doi.org/10.15405/epsbs.2021.07.02.25  
+Corresponding Author:  Tatiana Semenovskikh  
+Selection and peer -review under responsibility of the Organizing Committee of the conference  
+eISSN : 2357- 1330  
+ 
+ 213 3. Research Questions  
+In the modern society, such trends as digitalization  and gadgetization  are influencing almost all 
+the spheres of life, including education where new technologies are reshaping the educational process by 
+enhancing the teacher’s role in the classro om. Firstly, when it comes to digital technologies, the 
+pedagogical community shows a certain degree of conservatism. Secondly, educators, including interns 
+and teacher trainees, lack those competencies that involve the skills to effectively operate modern 
+technologies in order to solve pedagogical problems.  Targeted digital learning for teachers empowers 
+educators to develop and effectively imbed the electronic educational resources needed in today's 
+changing education paradigm, which  requires teacher educators to constantly review  professional learning  
+opportunities , responding to rapidly changing educational environments affected  by emerging digital 
+technolog ies (Falloon, 2020).  
+3.1. Are educators ready to take the responsibility for ensur ing the quality of the new media 
+education?  
+3.2. What prevents them from taking a leadership position in promoting effective pedagogical 
+technologies?  
+3.3. Can teachers be trained to review and modernize their learning content and reconsider how best 
+to engage and i nspire their learners?  
+ 
+4. Purpose of the Study  
+We aimed at  establish ing a pattern between an increasingly active integration  of electronic 
+resources in to education  underlying  the teachers' digital competencies and the students' redistribution of 
+classroom hours enabling them to study the theory of the subject while enhancing their practical skills.  
+The professional development course ‘Digital Education for Teachers’ was launched to focus  on 
+improving the teachers’ digital competencies by means of personalized learning and educational modules. 
+ 
+5. Research Methods  
+In the current study, the research method of content analysis  was applied to analyze and measure 
+the teachers' work on Moodle. The units of analysis included 490 electronic educational resources for 
+various learning programs  created by the vocational education teachers. Along with formal analysis , 
+which is characterized by a lesser degree of subjectivity, content analysis  encompassed  quantitative 
+analysis  to obtain higher accuracy when comparing the first order statistic. Additionally, to achieve the 
+mission  of the research, the teachers were exposed to blended learning models.  
+ 
+ https ://doi.org/10.15405/epsbs.2021.07.02.25  
+Corresponding Author:  Tatiana Semenovskikh  
+Selection and peer -review under responsibility of the Organizing Committee of the conference  
+eISSN : 2357- 1330  
+ 
+ 214 6. Findings  
+Teachers are gradually becoming involved in designing and scaling up  electronic resources  in 
+teaching practice. Electronic educational resources encourage teachers to constantly revise the dimensions 
+of teaching by empowering the students to self -manage. Therefore , it has become increasingly important 
+for vocational educat ion teachers to increase their digital competence. Vocational teachers are 
+strengthening the necessary skills to select electronic educational resources in accordance with the 
+educational objectives, to tailor learning to each student’s needs, and to measure their effectiveness, for 
+example, in assessing student performance.  
+The professional development course ‘Digital Education for Teachers ’ was held from November 
+2018 to June 2019 in vocational education institutions of Tyumen Region. The course modules w ere 
+aimed at instructing the teachers on how to incorporate evidence -based practices into real- world settings 
+through designing and testing the electronic educational resources. The main idea behind the course was 
+to develop and integrate teachers’ digital  competence in vocational education, allowing the teachers to 
+create electronic educational resources for action oriented activities , work -based learning and blended 
+learning models  by combining digital content and opportunities for virtual interaction with conventional 
+place- based classroom methods. The course program was designed to support the teachers in their efforts 
+to structurize  their programs with an emphasis on digital  learning .  
+During the implementation phase of the professional development c ourse,  there was a solid 
+emphasis on instructing vocational education teachers on how to develop learning content using 
+shareware software, free programs, open- source  platforms, etc.  E-learning content à la carte is changing 
+the face of traditional education, by offering individual productions of digital learning resources for transmitting knowledge and skills, thereby increasing student mobility and academic achievement. The 
+teachers were introduced to the use of blended learning models, which enable them to create learning 
+content and impart it choosing appropriate media for a specific learning program.  
+The framework guiding teacher digital capability development  builds on the following elements 
+(shown in Figure 01): 
+ 
+ An introduction to blended learning;  
+ Presentation services;  
+ Assessment services;  
+ Infographic makers;  
+ Animation services.  
+ https ://doi.org/10.15405/epsbs.2021.07.02.25  
+Corresponding Author:  Tatiana Semenovskikh  
+Selection and peer -review under responsibility of the Organizing Committee of the conference  
+eISSN : 2357- 1330  
+ 
+ 215  
+ The structure of the training courses  
+ 
+The professional development course ‘Digital Education for Teachers ’ encouraged the teachers to 
+consider an  expanded view of teacher digital competence in vocational education. Over the course of 
+eight months the teachers  created 490 electronic educational resources for specific learning programs  
+including  123 interactive presentations with Prezi,  135 assessment tools with  Onlin e Test Pad, 122 
+Piktochart  infographics and 110 animated videos on Powtoon.com.  Thus, they encompassed all the 
+aspects inherent in the ‘ Digital Education for Teachers ’ course program. A total number of 140 teachers 
+have produced digital learning materials  for 93 disciplines and tested them  in the educational environment 
+whereby enlarging the curriculum scope.  
+ 
+7. Conclusion 
+Digital education for teachers expands the role of educators and largely contributes to a gradual 
+transition from traditional forms of interaction with students to the active use of EER in teaching practice. 
+Educational diversity and blended learning  impro ve student engagement and agency, while electronic 
+educational resources , web-based e -testing knowledge systems and remote access to networks expand 
+cooperation and collaboration among students  in vocational education.  
+The use of electronic educational resources is  re-engineering vocational education, wherein the 
+share of  practical activities in educational experiences is increasing.  The electronic educational resources 
+created by teachers meet the urgent needs of students engaged in an independent study of  the theoretical 
+material of the course. This in turn affects student motivation in the classroom and  systematizes subject 
+knowledge when a student is mastering the core competencies and problem -solving skills. In addition, 
+electronic educational resources  are designed as a tool for students to use to develop digital competencies,  
+the vital 21st -century skills for students.  
+ 
+ 
+ 
+https ://doi.org/10.15405/epsbs.2021.07.02.25  
+Corresponding Author:  Tatiana Semenovskikh  
+Selection and peer -review under responsibility of the Organizing Committee of the conference  
+eISSN : 2357- 1330  
+ 
+ 216 References  
+Ala-Mutka, K. (2010). Learning in informal online networks and communities . European Commission – 
+Joint Research Centre – Institute for Prospective Technological Studies. 
+https://doi.org/10.2791/36566  
+Ala-Mutka, K. (2011). Mapping digital competence: towards a conceptual understanding. Publications 
+Office of the European Union . 
+Area, M., & Pessoa, T. (2012). From solid to liquid: new literacies to the cultural changes of Web 2.0. 
+Comunicar, 38 (19), 13 -20. https://doi: 10.3916/C38 -2012 -02-01 
+Eshet- Alkalai, Y. (2004). Digital literacy . A conceptual framework for survival skills in t he digital era . 
+Journal of Educational. Multimedia & Hypermedia, 13(1),  93-106. 
+Falloon, G. (2020) . From digital literacy to digital competence: the teacher digital competency (TDC) 
+framework. Educational Technology Research and Dev elopment , 68, 2449- 2472.  
+https://doi.org/10.1007/s11423- 020-09767-4  
+García- Pérez, R., Santos -Delgado, J. -M., &  Buzón -García, O. (2016). V irtual empathy as digital 
+competence in education 3.0.  International Journal of Educational Technology in Higher 
+Education, 13 (1), 30.  https://doi: 10.1186/s41239- 016-0029 -7 
+Ibragimova, L.  A., &  Skobeleva, I.  E. (2017).  E'lektronnye  obrazovatel'nye  resursy kak vazhnyj  e'lement  
+obespecheniya  kachestvennoj  podgotovki budushhix  specialistov  srednego zvena [Electronic 
+educational resources as an important element of ensuring high -quality training of future mid -level 
+specialists].  Vestnik  Nizhnevartovskogo  gosudarstvennogo universiteta [ Bulletin of 
+Nizhnevartovsk State University] , 3, 16-20. 
+Instefjord, E. J., &  Munthe, E. (2017).  Educating digitally competent teachers: A study of integration of 
+professional digital competence in teacher education. Teaching and Teacher Education, 67 (1), 37-
+45. http://dx.doi.org/10.1016/j.tate.2017.05.016  
+Kucher, O.  N. (2017). Options for the inclusion of distance educational technologies, e -learning in the 
+educational process of the university.  Modern problems of science and education, 5,  311. 
+Rice, M.  F., &  Deschaine, M.  E. (2020).  Orienting toward teacher education for online environments for 
+all students. The Educational Forum, 84 (2), 114-125. 
+Røkenes, F.  M., &  Krumsvik, R. (2014).  Development of student teachers’ digital competence in teacher 
+education . A Literature Review, Nordic Journal of Digital Literacy, 4 (9), 250- 280. 
+Semenovskikh, T.  V. (2014). Texnologii e -learning obucheniya v proektirovanii e'lektronnyx uchebnikov 
+po gumanitarnym  disciplinam [Technologies of e -learning teaching in the design of electronic 
+textbooks in humanitarian disciplines].  Internet -zhurnal  Naukovedenie  [Naukovedenie ], 6(25). 
+http://naukovedenie.ru/PDF/01PVN614.pdf  
+Semenovskikh, T.  V. (2015). E'lektronny  uchebnik  kak sredstvo e -learning obucheniya v vuze  [Electronic 
+textbook as a means of e -learning education at the university].  Kazanskij  pedagogicheskij  zhurnal  
+[Kazan Pedagogical Journal ], 6(2), 296-299. 
+Shlyapina, S.  F. (2016). Tekhnologii elektronnogo obucheniya [E-Learning Technology in Higher 
+School]. Sibirskij uchitel'  [Siberian teacher], 3(106), 12 -15. 
+Thurlings, M., & Perry den Brok (2017).  Learning outcomes of teacher professional development 
+activities: a meta -study.  Educational Review, 69 (5), 554-576. 
+https://doi.org/10.1080/00131911.2017.1281226  
+Vasiliev, V.  N., Stafeev S. K., Lisitsyna L.  S., &  Olshevskaya A.  V. (2014). Ot  tradicionnogo  
+distancionnogo obucheniya k massovym  otkrytym  onlajn -kursam [From traditional distance 
+learning to massive open online courses]. Nauchno -texnicheskij  vestnik  informacionnyx  texnologij, 
+mexaniki  i optiki  [Scientific and technical bulletin of information technologies, mechanics and 
+optics ], 1(89), 199-2 05. 
+Volkodav, T.  V.  (2015). Professional'no- lichnostnaya gotovnost' pedagogov i obrazovatel'nyh 
+menedzherov k rabote s geterogennymi gruppami i organizaciyami [Professional and personal 
+readiness of teachers and educational managers to work with heterogeneous groups and 
+organizations] . Nauchno -metodicheskij elektronnyj zhurnal Koncept  [Scientific -method ologi cal 
+electronic journal Concept], 37, 101-105. 
+Zakieva, R.  R. (2018). Obrazovatel'nyj menedzhment [Educational management].  Professional'noe  
+obrazovanie  v sovremennom mire [ Professional education in the modern world] , 8(2), 1836 -1843.  
+https://doi.org/10.15372/PEMW20180211 
+View publication stats

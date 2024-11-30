@@ -1,0 +1,197 @@
+Investment:
+Price-to-book ratio (P/B ratio)
+Alpha
+Beta (market risk)
+Capital appreciation
+Arbitrage
+Sharpe ratio
+Efficient frontier
+Modern portfolio theory (MPT)
+Dollar-cost averaging
+Buy-and-hold strategy
+Growth stocks
+Value investing
+Short selling
+Stop-loss order
+Technical analysis
+Fundamental analysis
+Market capitalization (small-cap, mid-cap, large-cap)
+Initial public offering (IPO)
+Private placement
+Convertible securities
+Leveraged buyout (LBO)
+Exit strategy
+Discounted cash flow (DCF)
+Earnings per share (EPS)
+Dividend reinvestment plan (DRIP)
+Price-to-earnings growth (PEG ratio)
+Alpha generation
+Treasury Inflation-Protected Securities (TIPS)
+Sustainable investing
+Environmental, Social, Governance (ESG)
+Banking:
+Non-performing asset (NPA)
+Basel III regulations
+Tier 1 capital
+Loan-to-value ratio (LTV)
+CAMELS rating
+Open market operations (OMO)
+Loan syndication
+Commercial paper
+Certificate of deposit (CD)
+Retail banking
+Corporate banking
+Investment banking
+Anti-money laundering (AML)
+Know your customer (KYC)
+Interbank lending
+Libor (London Interbank Offered Rate)
+Prime rate
+Discount rate
+Fractional reserve banking
+Asset-backed securities (ABS)
+Bank run
+Stress test
+Non-bank financial institution (NBFI)
+Payment gateway
+Financial inclusion
+Peer-to-peer (P2P) lending
+Digital wallet
+Central bank digital currency (CBDC)
+Automated clearing house (ACH)
+Mobile banking
+Open banking
+Payment service provider (PSP)
+Challenger bank
+Accounting:
+General Accepted Accounting Principles (GAAP)
+International Financial Reporting Standards (IFRS)
+Deferred tax liability
+Deferred revenue
+Working capital management
+Fixed assets
+Variable costs
+Break-even analysis
+Contribution margin
+Activity-based costing (ABC)
+FIFO (First In, First Out)
+LIFO (Last In, First Out)
+Contra account
+Notes payable
+Prepaid expenses
+Intangible assets
+Goodwill impairment
+Forensic accounting
+Fair value accounting
+Audit trail
+Internal control
+Consolidation
+Off-balance sheet financing
+Transfer pricing
+Account reconciliation
+Accounting cycle
+Financial ratios
+Accounting period
+Liquidity ratios
+Debt covenant
+Provision for bad debts
+Audit opinion
+Financial Planning:
+Net present value (NPV)
+Internal rate of return (IRR)
+Time value of money (TVM)
+Asset-liability matching
+Income replacement ratio
+Risk tolerance
+Asset protection
+Philanthropic planning
+Tax-sheltered investments
+Disability insurance
+Education savings plan (529 plan)
+Monte Carlo simulation
+Cash flow projections
+Spousal IRA
+Deferred annuity
+Tax-efficient withdrawal strategy
+Capital preservation
+Monte Carlo analysis
+Behavioral finance
+Required minimum distribution (RMD)
+Health reimbursement account (HRA)
+Tax-loss harvesting
+Split-dollar life insurance
+Variable universal life (VUL)
+Pay yourself first
+Debt avalanche method
+Debt snowball method
+Life expectancy
+Retirement income ladder
+Portfolio rebalancing
+Inheritance tax
+Living trust
+Stretch IRA
+Charitable remainder trust (CRT)
+Capital gains tax exemption
+General Finance:
+Debt-to-capital ratio
+Real interest rate
+Yield curve
+Inverted yield curve
+Fiscal stimulus
+Quantitative easing
+Helicopter money
+Hyperinflation
+Stagflation
+Deflationary spiral
+Recessionary gap
+Expansionary fiscal policy
+Contractionary monetary policy
+Foreign direct investment (FDI)
+Crowdfunding
+Blockchain in finance
+Tokenization of assets
+Decentralized finance (DeFi)
+Fintech
+Microfinancing
+Credit default swap (CDS)
+Sovereign wealth fund
+Capital inflows
+Financial contagion
+Systemic risk
+Basel Accords
+Currency devaluation
+Emerging markets
+Trade deficit
+Current account surplus
+Tranche
+Balance of payments
+Dollar peg
+Bretton Woods Agreement
+Eurobond
+Exchange-traded notes (ETNs)
+Over-the-counter (OTC) market
+Financial derivatives
+Black-Scholes model
+Risk Management & Compliance:
+Value at Risk (VaR)
+Operational risk
+Liquidity risk
+Credit risk
+Market risk
+Reputational risk
+Regulatory risk
+Compliance audit
+Stress testing
+Scenario analysis
+Loss given default (LGD)
+Probability of default (PD)
+Basel II framework
+Risk appetite framework
+Anti-bribery and corruption (ABC)
+Sanctions compliance
+Whistleblower protection
+Fiduciary duty
+Money laundering control
+Conflict of interest
+Ethics in finance
+Counterparty risk

@@ -1,0 +1,244 @@
+Economics:
+Supply and demand
+Marginal utility
+Opportunity cost
+Scarcity
+Factors of production
+Incentives
+Market equilibrium
+Economic systems (capitalism, socialism, mixed economy)
+Resource allocation
+Elasticity (price elasticity, income elasticity)
+Comparative advantage
+Utility maximization
+Production possibilities frontier (PPF)
+Game theory
+Pareto efficiency
+Externalities (positive, negative)
+Public goods
+Market failure
+Free rider problem
+Deadweight loss
+Welfare economics
+Cost-benefit analysis
+Sunk cost
+Law of diminishing returns
+Marginal cost vs. marginal benefit
+Economic growth
+Circular flow of income
+Behavioral economics
+Information asymmetry
+Microeconomics:
+Perfect competition
+Monopolistic competition
+Monopoly
+Oligopoly
+Price taker
+Price maker
+Marginal revenue
+Marginal cost
+Consumer surplus
+Producer surplus
+Nash equilibrium
+Price discrimination
+Economies of scale
+Diseconomies of scale
+Price ceiling
+Price floor
+Subsidies
+Tax incidence
+Total revenue
+Profit maximization
+Budget constraint
+Indifference curve
+Isoquant curve
+Production function
+Short-run vs. long-run
+Factor markets
+Labor supply and demand
+Wage elasticity
+Capital markets
+Rent-seeking behavior
+Giffen goods
+Veblen goods
+Utility theory
+Perfect information
+Bounded rationality
+Macroeconomics:
+Gross domestic product (GDP)
+Gross national product (GNP)
+Real GDP vs. Nominal GDP
+Inflation
+Hyperinflation
+Deflation
+Stagflation
+Recession
+Depression
+Aggregate supply
+Aggregate demand
+Keynesian economics
+Classical economics
+Supply-side economics
+Demand-side economics
+Fiscal policy
+Monetary policy
+Business cycle (expansion, peak, contraction, trough)
+Interest rates
+Unemployment rate
+Natural rate of unemployment
+Phillips curve
+Output gap
+Fiscal deficit
+Public debt
+Budget surplus
+National savings
+Balance of trade
+Trade deficit
+Foreign exchange reserves
+Exchange rate
+Purchasing power parity (PPP)
+Real interest rate
+Nominal interest rate
+Crowding out effect
+Open market operations (OMOs)
+Taylor rule
+Structural unemployment
+Cyclical unemployment
+Currency union
+Productivity growth
+Multiplier effect
+Hyperinflation spiral
+Total factor productivity (TFP)
+Economic Policies:
+Expansionary fiscal policy
+Contractionary fiscal policy
+Expansionary monetary policy
+Contractionary monetary policy
+Automatic stabilizers
+Supply-side policy
+Demand management policy
+Income redistribution
+Progressive taxation
+Regressive taxation
+Flat tax
+Value-added tax (VAT)
+Tariffs
+Trade barriers
+Subsidies
+Quotas
+Price controls
+Central bank independence
+Quantitative easing (QE)
+Helicopter money
+Austerity measures
+Public sector borrowing requirement (PSBR)
+Fiscal consolidation
+Debt restructuring
+Capital controls
+Wage controls
+Price stability
+Inflation targeting
+Exchange rate targeting
+Tax incentives
+Social welfare programs
+Means-tested benefits
+Public-private partnerships (PPP)
+Universal basic income (UBI)
+Green economy policies
+Industrial policy
+Infrastructure investment
+Health and education spending
+Regulatory policy
+International Trade:
+Balance of payments (BOP)
+Current account
+Capital account
+Trade balance
+Free trade agreement (FTA)
+Trade surplus
+Trade deficit
+Tariffs
+Non-tariff barriers (NTBs)
+World Trade Organization (WTO)
+General Agreement on Tariffs and Trade (GATT)
+Most-favored-nation (MFN) status
+Protectionism
+Comparative advantage
+Absolute advantage
+Dumping
+Trade liberalization
+Customs union
+Trade bloc
+Common market
+Economic integration
+Export subsidies
+Import quotas
+Anti-dumping duties
+Countervailing duties
+Trade war
+Bilateral trade agreement
+Multilateral trade agreement
+Terms of trade
+Exchange rate regime (fixed, floating, pegged)
+Foreign direct investment (FDI)
+Trade barriers
+Global value chains (GVC)
+Outsourcing
+Offshoring
+Import substitution industrialization (ISI)
+Regional trade agreements (RTAs)
+Trade diversion
+Tariff escalation
+Trade facilitation
+Export credit agency (ECA)
+Harmonized System (HS) code
+Economic sanctions
+Currency manipulation
+Intellectual property rights (IPR) in trade
+Preferential trade agreement (PTA)
+Intra-industry trade
+Globalization
+Transnational corporations (TNCs)
+Economic Theories & Models:
+Laffer curve
+Solow growth model
+IS-LM model
+Rational expectations theory
+Adaptive expectations
+Endogenous growth theory
+Real business cycle (RBC) theory
+Supply and demand model
+Aggregate demand-aggregate supply (AD-AS) model
+Ricardian equivalence
+Quantity theory of money
+Say's law
+Okun’s law
+The Phillips curve
+Modigliani-Miller theorem
+Heckscher-Ohlin model
+Mundell-Fleming model
+Lucas critique
+Tragedy of the commons
+Moral hazard
+Principal-agent problem
+Coase theorem
+Development Economics:
+Human development index (HDI)
+Gross national income (GNI)
+Poverty line
+Income inequality
+Gini coefficient
+Sustainable development
+Microfinance
+Structural adjustment programs (SAPs)
+Foreign aid
+Millennium Development Goals (MDGs)
+Sustainable Development Goals (SDGs)
+Informal economy
+Dependency theory
+Import substitution
+Export-led growth
+Human capital development
+Rural-urban migration
+Demographic transition
+Financial inclusion

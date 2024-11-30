@@ -1,0 +1,167 @@
+Programming Paradigms:
+Concurrent programming:
+Multithreading
+Parallelism
+Thread safety
+Deadlock, livelock
+Asynchronous vs. synchronous operations
+Reactive programming:
+Observables and streams
+Event-driven architecture
+ReactiveX (RxJava, RxJS)
+Aspect-oriented programming (AOP):
+Cross-cutting concerns
+Logging and monitoring with AOP
+AspectJ in Java
+Metaprogramming:
+Code generation
+Reflection
+Macros (Lisp, Clojure, Rust)
+Advanced Software Engineering:
+Software configuration management (SCM):
+Configuration baselines
+Build automation tools (Gradle, Maven)
+Continuous deployment (CD)
+Release management
+Software design anti-patterns:
+God object
+Spaghetti code
+Golden hammer
+Lava flow
+Software design tools:
+Lucidchart for UML diagrams
+PlantUML
+Visual Paradigm
+Security in software development:
+Secure coding practices
+Input validation
+SQL injection, Cross-site scripting (XSS)
+Security vulnerability scanning (SonarQube, OWASP Dependency-Check)
+Static application security testing (SAST)
+Dynamic application security testing (DAST)
+Penetration testing
+Role-based access control (RBAC)
+Cloud-native development:
+Microservices vs. monoliths
+API gateways
+Serverless architecture (AWS Lambda, Azure Functions)
+Cloud-based CI/CD pipelines
+Observability (Logs, metrics, tracing)
+DevOps and Infrastructure:
+Infrastructure as Code (IaC):
+Immutable infrastructure
+Policy as code
+Security as code
+Containerization and Virtualization:
+Virtual machines (VMs) vs. containers
+Kubernetes clusters
+Docker Swarm
+Network overlays in Kubernetes
+Monitoring and alerting:
+Alerting tools (PagerDuty, OpsGenie)
+Distributed tracing (Jaeger, Zipkin)
+Centralized logging (ELK Stack, Fluentd)
+Real-time monitoring (Prometheus, Grafana)
+CI/CD pipelines:
+Blue-green deployments
+Canary releases
+Rollbacks in CI/CD
+Feature toggles/flags
+CI/CD on Kubernetes
+Self-hosted CI/CD tools (Jenkins, GitLab Runner)
+Quality Assurance (QA) & Testing:
+Advanced Testing Techniques:
+Fuzz testing
+Mutation testing
+Smoke testing
+Sanity testing
+Test automation frameworks:
+Appium for mobile testing
+Cypress for end-to-end testing
+Puppeteer for headless browser testing
+Katalon Studio
+Test data management:
+Synthetic test data generation
+Test environments
+Staging environments
+Mocking and stubbing (Mockito, WireMock)
+Non-functional testing:
+Security testing (OWASP ZAP, Burp Suite)
+Accessibility testing (Axe, Lighthouse)
+Reliability testing
+Software Project Management:
+Risk management in projects:
+Risk assessment
+Risk mitigation strategies
+Stakeholder management:
+RACI matrix (Responsible, Accountable, Consulted, Informed)
+Communication management plan
+Project estimation techniques:
+Agile estimation (Planning poker, T-shirt sizing)
+Wideband Delphi estimation
+Cone of uncertainty
+Critical path method (CPM):
+Gantt charts
+PERT (Program Evaluation Review Technique)
+Dependency management
+Team collaboration:
+Knowledge management (Confluence, SharePoint)
+Mind mapping (MindMeister)
+Collaborative coding (VSCode Live Share, GitHub Codespaces)
+Agile Methodologies – Advanced Concepts:
+Agile project scaling:
+Enterprise Agile
+Agile Release Train (ART)
+Agile transformation:
+Change management
+Agile maturity models
+Agile metrics:
+Lead time vs. cycle time
+Burnup and burndown charts
+Cumulative flow diagram (CFD)
+Throughput metrics
+Agile contracts:
+Fixed-price contracts in Agile
+Time-and-materials contracts
+Scope creep in Agile
+Development Tools – Additional:
+Mobile development tools:
+Android Studio
+Xcode for iOS development
+Flutter for cross-platform mobile development
+React Native
+Testing tools for mobile development:
+Espresso (Android)
+XCTest (iOS)
+Detox (React Native)
+Version control strategies:
+GitOps for infrastructure
+Forking workflows
+Cloud IDEs:
+Replit
+AWS Cloud9
+GitPod
+Continuous Delivery (CD) & DevSecOps:
+Continuous delivery pipelines:
+Infrastructure pipelines
+Blue-green deployments
+Rollback strategies
+Security integration in CI/CD:
+Shift-left security
+Security scanners in pipelines (Snyk, BlackDuck)
+Secret management (Vault, AWS Secrets Manager)
+Monitoring and Incident Response:
+Incident management (SRE practices)
+Chaos engineering (Chaos Monkey)
+Blameless post-mortem
+Open-Source Software Development:
+Open-source licenses:
+MIT License
+Apache License 2.0
+GPL (General Public License)
+Contributing to open source:
+Forks and pull requests (PRs)
+Code of conduct in open source projects
+Community-driven development:
+RFCs (Request for Comments)
+Open-source governance models

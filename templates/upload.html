@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Documents for Classification</title>
+    <!-- Add Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background: linear-gradient(120deg, #f4f4f4, #c7d6fc, #e6dbd1, #cfe4cf);
+            color: #333;
+            background-size: 400% 400%; /* Make the gradient larger than the body */
+            overflow-x: hidden;
+            animation: gradientMove 12s ease infinite;
+        }
+        /* Define the moving gradient animation */
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+        /* Typewriter animation */
+        .typewriter h1 {
+            overflow: hidden;
+            border: solid #00e676;
+            white-space: nowrap;
+            width: 119.3%; /* Adjust the width to full */
+            animation: typing 1s steps(22, end), blink-caret .75s step-end infinite;
+        
+        }
+
+        @keyframes typing {
+            from {
+                width: 0%;
+            }
+            to {
+                width: 119.3%;
+            }
+        }
+        @keyframes blink-caret {
+            0%,
+            100% {
+                border-color: transparent;
+            }
+            50% {
+                border-color: transparent; 
+            }
+        }
+        .main-content {
+            padding: 60px 20px;
+            text-align: center;
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+        }
+        .main-content h1 {
+            font-size: 3rem;
+            color: #00e676;
+        }
+        .container {
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s ease-in;
+            border-left: 5px solid #00e676;
+            transition: box-shadow 0.3s ease;
+        }
+        .container:hover {
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        form {
+            display: grid;
+            gap: 20px;
+            text-align: left;
+        }
+        textarea {
+            width: 100%;
+            height: 150px;
+            background-color: #f9f9f9;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 12px;
+            font-size: 1rem;
+            line-height: 1.5;
+            resize: none;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+        textarea:focus {
+            border-color: #00e676;
+            box-shadow: 0 0 6px rgba(0, 230, 118, 0.3);
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #fff;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease-in-out;
+        }
+        input[type="text"]:focus {
+            border-color: #00e676;
+            box-shadow: 0 0 6px rgba(0, 230, 118, 0.3);
+        }
+        button {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+        button1 {
+            padding: 12px 30px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            font-weight: bold;
+        }
+        button:hover {
+            background-color: #00c853;
+            box-shadow: 0 4px 10px rgba(0, 200, 83, 0.2);
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: -250px;
+            height: 100%;
+            width: 250px;
+            background-color: #1f1f1f;
+            padding: 20px;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
+            border-radius: 0 20px 20px 0;
+            transition: left 0.3s ease;
+            z-index: 1000;
+        }
+        .sidebar.open {
+            left: 0;
+        }
+        .sidebar h1 {
+            color: #00e676;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .sidebar a {
+            display: flex;
+            align-items: center;
+            color: #e0e0e0;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        .sidebar a i {
+            margin-right: 10px;
+        }
+        .sidebar a:hover {
+            background-color: #00e676;
+            color: #121212;
+        }
+        .scroll-container {
+            margin-left: 0;
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: margin-left 0.3s ease;
+        }
+
+        .scroll-container.expanded {
+            margin-left: 250px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: #1f1f1f;
+            color: #616161;
+            font-size: 0.9rem;
+        }
+        .footer a {
+            color: #00e676;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .footer a:hover {
+            color: #00c853;
+        }
+        .toggle-btn {
+            position: fixed;
+            top: 20px;
+            background: transparent; 
+            color: #00e676;
+            border: none;
+            font-size: 40px;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease;
+        }
+        .upload-area {
+            margin: 40px auto;
+            padding: 40px;
+            border: 3px dashed #00e676;
+            border-radius: 8px;
+            background-color: #333;
+            text-align: center;
+            color: white;
+            transition: background-color 0.3s ease;
+            max-width: 600px;
+        }
+        .upload-area:hover {
+            background-color: #444;
+        }
+        .upload-area .upload-icon {
+            font-size: 3rem;
+            color: #00e676;
+            margin-bottom: 20px;
+        }
+        .upload-area input[type="file"] {
+            display: none;
+        }
+        .upload-area label {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+        }
+        .upload-area .file-formats {
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #ddd;
+        }
+        .upload-btn {
+            padding: 15px 40px;
+            background-color: #00e676;
+            color: #121212;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            margin-top: 30px;
+        }
+        .upload-btn:hover {
+            background-color: #00c853;
+            box-shadow: 0 4px 10px rgba(0, 200, 83, 0.2);
+        }
+/* Style for the notification */
+.notification {
+    position: fixed;
+    top: 5%;
+    left: 20%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    opacity: 0;
+    pointer-events: none;
+    animation: showNotification 0.5s ease-out forwards, hideNotification 0.5s 4.5s forwards;
+}
+
+/* Bubble style */
+.bubble {
+    position: relative;
+    background-color: #efff9763;  /* Yellow for comic feel */
+    color: #333;
+    font-size: 18px;
+    font-family: 'Comic Sans MS', sans-serif;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Tail of the speech bubble */
+.bubble:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -15px; /* Position the tail to the left of the bubble */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid #efff9763; /* Color of the bubble */
+}
+
+/* Animation for showing notification */
+@keyframes showNotification {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+}
+
+/* Animation for hiding notification */
+@keyframes hideNotification {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        pointer-events: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="notification" class="notification">
+        <div class="bubble">
+            <p>Give a click Here for more options !</p>
+        </div>
+    </div>
+    <!-- Sidebar Toggle Button -->
+    <button1 class="toggle-btn" onclick="toggleSidebar()">
+        &gt;
+    </button1>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <h1 style="margin-top: 20px;">MENU</h1>
+        <a href="/"><i class="fas fa-upload"></i> Upload</a>
+        <a href="storage.html"><i class="fas fa-hdd"></i> Storage</a>
+        <a href="settings.html"><i class="fas fa-cogs"></i> Settings</a>
+        {% if session.logged_in %}
+            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        {% else %}
+            <a href="signup.html"><i class="fas fa-sign-in-alt"></i> Sign In/Sign Up</a>
+        {% endif %}
+        <a href="github.html"><i class="fab fa-github"></i> Github</a>
+        <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+    </div>
+    <div style="align-items: center; margin-left: 300px;">
+        {% with messages = get_flashed_messages(with_categories=True) %}
+            {% if messages %}
+                <ul>
+                    {% for category, message in messages %}
+                        <li class="{{ category }}">{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        </div>
+    <!-- Scrollable Content -->
+    <div class="scroll-container" id="scrollContainer">
+        <div class="main-content fade-in">
+            <div class="typewriter">
+                <h1  style="font-size: 43px; text-align:left"> Upload Documents for Classification </h1>
+            </div>
+        </div>
+            </div>
+            <!-- Upload Area -->
+            <div class="upload-area" style="margin-left: 30%;">
+                <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                <p><label for="fileUpload">Click to upload files</label></p>
+                <br>
+                <p class="file-formats">Supported formats: <i class="far fa-file-text fa-2x" title="notepad file"></i>  <i class="far fa-file-word fa-2x" title="word file"></i>  <i class="far fa-file-pdf fa-2x" title=".pdf"></i>  <i class="fas fa-file-powerpoint fa-2x" title="presentations"></i>  <i class="fas fa-file-excel fa-2x" title="excel file"></i></p>
+                <form method="POST" enctype="multipart/form-data">
+                <input type="file" id="fileUpload" name="file" multiple>
+                <!-- Submit Button -->
+                <input type="submit" class="upload-btn" value="Upload and Classify">
+    </form>
+</div>
+</div>
+<!-- Developer Footer at the very bottom -->
+<footer class="footer" style="margin-top: 20%;">
+    <p>Developed by <a href="krakshit.1970@gmail.com">Arijit Rakshit</a></p>
+    <p>Contact: +91 7908871586 | Address: Munsiffdanga, ward no. 2, Purulia, West Bengal, India</p>
+</footer>
+</div>
+    <script>
+        window.onload = function() {
+        var notification = document.getElementById('notification');
+        notification.style.opacity = '1'; // Make sure it's visible immediately
+    }
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const scrollContainer = document.getElementById('scrollContainer');
+            sidebar.classList.toggle('open');
+            scrollContainer.classList.toggle('expanded');
+
+            const toggleBtn = document.querySelector('.toggle-btn');
+            toggleBtn.innerHTML = sidebar.classList.contains('open') ? '&lt;' : '&gt;';
+        }
+    </script>
+</body>
+</html>
