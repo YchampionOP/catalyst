@@ -39,13 +39,13 @@ Use the cd command to move into the project folder:
 
 3.Install dependencies
 Install the required Python libraries using the command:
-   ```bash
-   pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 4.Run the development server
 Start the local development server with the following command:
-   ```bash
-   python app.py runserver
+    ```bash
+    python app.py runserver
 
 5.Access the website
 Open your web browser and navigate to:
