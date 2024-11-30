@@ -1,6 +1,7 @@
 # Document Classifier AI Website
 
 Welcome to the **Document Classifier AI Website**! This project provides a robust, user-friendly platform for classifying documents using state-of-the-art AI technologies. Designed with security, accuracy, and speed in mind, this application offers a seamless experience for managing and classifying your documents.
+Developed By Arijit Rakshit.
 
 ## Features
 
@@ -40,17 +41,17 @@ Use the cd command to move into the project folder:
 3.Install dependencies
 Install the required Python libraries using the command:
     ```bash
-    pip install -r requirements.txt
+    pip install -r requirements.txt```
 
 4.Run the development server
 Start the local development server with the following command:
     ```bash
-    python app.py runserver
+    python app.py runserver```
 
 5.Access the website
 Open your web browser and navigate to:
-   ```bash
-   http://localhost:8000
+    ```bash
+    http://localhost:8000```
 
 ## Usage
 - Upload your document via the upload interface.
