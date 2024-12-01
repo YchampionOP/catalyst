@@ -1,22 +1,26 @@
-import os
-import docx
-import pandas as pd
-from pptx import Presentation
-from PyPDF2 import PdfReader
-from flask import Flask, render_template, request, redirect, flash, url_for, session, send_from_directory
-from werkzeug.utils import secure_filename
-from flask_sqlalchemy import SQLAlchemy
-from flask_bcrypt import Bcrypt
-from flask_login import LoginManager, UserMixin, login_user, current_user, logout_user, login_required
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.naive_bayes import MultinomialNB
-import nltk
-import re
-import requests
-from flask_dance.contrib.github import make_github_blueprint, github
 import base64
 import json
+import os
+import re
 from datetime import datetime
+
+import docx
+import nltk
+import pandas as pd
+import requests
+from flask import (Flask, flash, redirect, render_template, request,
+                   send_from_directory, session, url_for)
+from flask_bcrypt import Bcrypt
+from flask_dance.contrib.github import github, make_github_blueprint
+from flask_login import (LoginManager, UserMixin, current_user, login_required,
+                         login_user, logout_user)
+from flask_sqlalchemy import SQLAlchemy
+from pptx import Presentation
+from PyPDF2 import PdfReader
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from werkzeug.utils import secure_filename
+
 
 # Fetch user repositories from GitHub
 def fetch_github_repos():
@@ -38,18 +42,20 @@ def download_github_file(repo, path):
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
-# Initialize Flask app
+# Update these lines in the configuration section:
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = os.path.join('uploads', '{user_id}')  # Folder to save uploaded files
+app.config['UPLOAD_FOLDER'] = os.path.join('uploads', '{user_id}')
 app.config['ALLOWED_EXTENSIONS'] = {'txt', 'pdf', 'docx', 'ppt', 'pptx', 'xls', 'xlsx'}
-app.config['SECRET_KEY'] = 'e6f7b9dfb830d91de7b1da88b889954e' 
+app.config['SECRET_KEY'] = '7c72adb53451307c72c9fb854bd76d12' 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
-app.config['GITHUB_OAUTH_CLIENT_ID'] = 'Ov23liLWJvsCyio99dJ1'
-app.config['GITHUB_OAUTH_CLIENT_SECRET'] = 'ee76e12893fd6cb794ce629f79d48d9fa8242b0d'
-github_bp = make_github_blueprint(client_id=app.config['GITHUB_OAUTH_CLIENT_ID'],
-                                    client_secret=app.config['GITHUB_OAUTH_CLIENT_SECRET'],
-                                    redirect_to='github_integration',
-                                    scope='repo')
+app.config['GITHUB_OAUTH_CLIENT_ID'] = 'Ov23liTGNzH8eCexJRuD'
+app.config['GITHUB_OAUTH_CLIENT_SECRET'] = '1dd5ed99331247155cbb4907f46e5ccfe9ecec19'
+github_bp = make_github_blueprint(
+    client_id=app.config['GITHUB_OAUTH_CLIENT_ID'],
+    client_secret=app.config['GITHUB_OAUTH_CLIENT_SECRET'],
+    redirect_to='github_integration',
+    scope='repo'
+)
 app.register_blueprint(github_bp, url_prefix='/github_login')
 
 
@@ -95,19 +101,8 @@ class User(db.Model, UserMixin):
     email = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(db.String(60), nullable=False)
 
-@app.before_request
-def enforce_https():
-    if request.url.startswith('http://'):
-        return redirect(request.url.replace('http://', 'https://', 1))
-
-app.config['SESSION_COOKIE_SECURE'] = True
-app.config['REMEMBER_COOKIE_SECURE'] = True
-
-@app.after_request
-def set_secure_headers(response):
-    response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
-    return response
-
+app.config['SESSION_COOKIE_SECURE'] = False
+app.config['REMEMBER_COOKIE_SECURE'] = False
 
 @login_manager.user_loader
 def load_user(user_id):
@@ -620,4 +615,10 @@ with app.app_context():
 
 if __name__ == '__main__':
     train_model()
-    app.run(ssl_context=('cert.pem', 'key.pem'), debug=True)
+    # Modified run configuration to handle SSL properly
+    app.run(
+        debug=True, 
+        host='127.0.0.1', 
+        port=5001,
+        ssl_context=None  # Explicitly disable SSL for development
+    )

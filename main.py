@@ -1,16 +1,18 @@
 import os
+
 import docx
+import nltk
 import pandas as pd
 from pptx import Presentation
 from PyPDF2 import PdfReader
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.metrics import accuracy_score, classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import accuracy_score, classification_report
-import nltk
 
 nltk.download('stopwords')
 from nltk.corpus import stopwords
+
 
 # Functions to extract text from different file types
 def extract_text_from_docx(docx_file):

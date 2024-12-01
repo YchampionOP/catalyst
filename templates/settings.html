@@ -1,393 +1,438 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - Document Classifier AI</title>
-    <!-- Add Font Awesome for icons -->
+    <title>Settings - Catalyst AI</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --primary: #4f46e5;
+            --primary-dark: #3730a3;
+            --accent: #8b5cf6;
+            --bg-dark: #0a0b1e;
+            --bg-card: rgba(30, 41, 59, 0.5);
+            --text-light: #f8fafc;
+            --text-dim: #94a3b8;
+            --glow: rgba(79, 70, 229, 0.3);
+        }
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+            transition: all 0.3s ease;
         }
 
         body {
-            font-family: 'Roboto Mono', monospace;
-            background: linear-gradient(120deg, #f4f4f4, #c7d6fc, #e6dbd1, #cfe4cf);
-            color: #333;
-            background-size: 400% 400%; /* Make the gradient larger than the body */
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e1b4b, #1e293b);
+            color: var(--text-light);
+            min-height: 100vh;
             overflow-x: hidden;
-            animation: gradientMove 12s ease infinite;
         }
-        /* Define the moving gradient animation */
-@keyframes gradientMove {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 100%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
 
-        /* Sidebar styles */
+        /* Futuristic Loading Animation */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loader {
+            width: 60px;
+            height: 60px;
+            position: relative;
+        }
+
+        .loader:before, .loader:after {
+            content: '';
+            position: absolute;
+            border: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: ripple 2s ease-out infinite;
+        }
+
+        .loader:after {
+            animation-delay: 1s;
+        }
+
+        @keyframes ripple {
+            0% {
+                width: 0;
+                height: 0;
+                opacity: 0.8;
+            }
+            100% {
+                width: 60px;
+                height: 60px;
+                opacity: 0;
+            }
+        }
+
+        /* Futuristic Sidebar */
         .sidebar {
             position: fixed;
             top: 0;
-            left: -250px;
+            left: -300px;
             height: 100%;
-            width: 250px;
-            background-color: #1f1f1f;
-            padding: 20px;
-            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.4);
-            border-radius: 0 20px 20px 0;
-            transition: left 0.3s ease;
+            width: 300px;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(20px);
+            padding: 2rem;
             z-index: 1000;
+            border-right: 1px solid rgba(79, 70, 229, 0.2);
         }
 
         .sidebar.open {
             left: 0;
+            box-shadow: 5px 0 30px var(--glow);
         }
 
         .sidebar h1 {
-            color: #00e676;
+            font-family: 'Orbitron', sans-serif;
+            color: var(--text-light);
+            font-size: 2rem;
+            margin-bottom: 2rem;
             text-align: center;
-            margin-bottom: 30px;
+            text-shadow: 0 0 10px var(--glow);
         }
 
         .sidebar a {
             display: flex;
             align-items: center;
-            color: #e0e0e0;
-            padding: 10px 15px;
+            padding: 1rem;
+            color: var(--text-light);
             text-decoration: none;
-            border-radius: 4px;
-            margin-bottom: 10px;
-            transition: all 0.3s ease;
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            background: rgba(79, 70, 229, 0.1);
+            border: 1px solid rgba(79, 70, 229, 0.1);
         }
 
         .sidebar a i {
-            margin-right: 10px;
+            margin-right: 1rem;
+            font-size: 1.2rem;
+            color: var(--accent);
         }
 
         .sidebar a:hover {
-            background-color: #00e676;
-            color: #121212;
+            background: rgba(79, 70, 229, 0.2);
+            transform: translateX(10px);
+            border-color: var(--primary);
         }
 
-        /* Main content styles */
+        /* Futuristic Toggle Button */
+        .toggle-btn {
+            position: fixed;
+            top: 2rem;
+            left: 2rem;
+            background: rgba(79, 70, 229, 0.2);
+            color: var(--text-light);
+            border: 1px solid var(--primary);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 1001;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 20px var(--glow);
+        }
+
+        .toggle-btn:hover {
+            background: var(--primary);
+            box-shadow: 0 0 30px var(--glow);
+        }
+
+        /* Main Content */
         .main-content {
-            padding: 60px 20px;
-            text-align: center;
+            padding: 2rem;
+            margin-left: 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Settings Container */
+        .settings-container {
+            background: var(--bg-card);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2rem auto;
+            border: 1px solid rgba(79, 70, 229, 0.2);
+            animation: fadeIn 0.5s ease;
+            box-shadow: 0 0 30px rgba(79, 70, 229, 0.1);
+        }
+
+        .settings-container:hover {
+            border-color: var(--primary);
+            box-shadow: 0 0 40px var(--glow);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .settings-container h2 {
+            font-family: 'Orbitron', sans-serif;
+            color: var(--text-light);
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            text-shadow: 0 0 10px var(--glow);
+        }
+
+        .settings-container h2 i {
+            margin-right: 0.5rem;
+            color: var(--accent);
+        }
+
+        /* Form Elements */
+        .form-group {
+            margin-bottom: 1.5rem;
             position: relative;
-            max-width: 800px;
-            margin: auto;
         }
 
-        .container {
-            margin: 40px auto;
-            padding: 30px;
-            background: #fff;
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: var(--text-dim);
+            font-weight: 500;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid rgba(79, 70, 229, 0.2);
             border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.3s ease;
-        }
-
-        button {
-            padding: 12px 30px;
-            background-color: #00e676;
-            color: #121212;
-            border: none;
-            border-radius: 4px;
+            color: var(--text-light);
             font-size: 1rem;
-            cursor: pointer;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            font-weight: bold;
         }
 
-        button1{
-            padding: 12px 30px;
-            background-color: #00e676;
-            color: #121212;
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 20px var(--glow);
+            outline: none;
+        }
+
+        /* Buttons */
+        .save-btn,
+        .submit-btn {
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: var(--text-light);
             border: none;
-            border-radius: 4px;
-            font-size: 1rem;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
             cursor: pointer;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-            font-weight: bold;
+            width: 100%;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Orbitron', sans-serif;
         }
 
-        button:hover {
-            background-color: #00c853;
-            box-shadow: 0 4px 10px rgba(0, 200, 83, 0.2);
+        .save-btn:hover,
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px var(--glow);
         }
 
-        /* Developer Footer */
+        /* Footer */
         .footer {
+            background: rgba(15, 23, 42, 0.95);
+            padding: 2rem;
             text-align: center;
-            margin-top: 50px;
-            padding: 30px;
-            background-color: #1f1f1f;
-            color: #616161;
-            font-size: 0.9rem;
+            margin-top: 4rem;
+            border-top: 1px solid rgba(79, 70, 229, 0.2);
         }
 
         .footer a {
-            color: #00e676;
+            color: var(--accent);
             text-decoration: none;
-            transition: color 0.3s ease;
         }
 
         .footer a:hover {
-            color: #00c853;
+            color: var(--primary);
+            text-shadow: 0 0 10px var(--glow);
         }
 
-        /* Sidebar toggle button */
-        .toggle-btn {
+        /* Notification */
+        .notification {
             position: fixed;
-            top: 20px;
-            background: transparent;
-            color: #00e676;
-            border: none;
-            font-size: 40px;
-            cursor: pointer;
-            z-index: 1001;
-            transition: color 0.3s ease;
+            top: 2rem;
+            right: -100%;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: var(--text-light);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            font-weight: 500;
+            transition: right 0.3s ease;
+            z-index: 1000;
+            box-shadow: 0 0 20px var(--glow);
         }
-        /* Container */
-.settings-container {
-    background: rgba(255, 255, 255, 0.1); /* Transparent white */
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 30px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
-    -webkit-text-fill-color: #121212;
-    margin-left:80px;
-    margin-top:80px;
-}
 
-/* Section Headings */
-.settings-container h2 {
-    color: #ffffff;
-    font-size: 24px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 10px;
-}
+        .notification.show {
+            right: 2rem;
+        }
 
-/* Form Styling */
-.form-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-    font-size: 16px;
-    color: #e0e0e0;
-}
-
-input[type="text"], input[type="email"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    outline: none;
-    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-    transition: background 0.3s ease;
-}
-
-input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
-    background: rgba(255, 255, 255, 0.3);
-}
-
-/* Buttons */
-.save-btn {
-    display: inline-block;
-    width: 100%;
-    padding: 12px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #1e3c72;
-    background: linear-gradient(135deg, #ffffff, #e0e0e0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, background 0.3s ease;
-}
-
-.save-btn:hover {
-    background: linear-gradient(135deg, #f7f7f7, #ffffff);
-    transform: translateY(-2px);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .settings-container {
-        padding: 20px;
-    }
-    
-    .save-btn {
-        font-size: 16px;
-        padding: 10px;
-    }
-}
-/* Feedback Form Styles */
-.feedback-container {
-    margin-top: 30px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-radius: 15px;
-    padding: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    width: 100%;
-}
-
-.feedback-container h2 {
-    font-size: 24px;
-    color: #ffffff;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-}
-
-textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
-    color: #ffffff;
-    outline: none;
-    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
-    resize: none;
-    transition: background 0.3s ease;
-}
-
-textarea:focus {
-    background: rgba(255, 255, 255, 0.3);
-}
-
-.submit-btn {
-    display: inline-block;
-    width: 100%;
-    padding: 12px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #1e3c72;
-    background: linear-gradient(135deg, #ffffff, #e0e0e0);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s, background 0.3s ease;
-}
-
-.submit-btn:hover {
-    background: linear-gradient(135deg, #f7f7f7, #ffffff);
-    transform: translateY(-2px);
-}
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .settings-container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+            
+            .main-content {
+                padding: 1rem;
+            }
+        }
     </style>
 </head>
-
 <body>
+    <div class="loading-screen">
+        <div class="loader"></div>
+    </div>
 
-    <!-- Sidebar Toggle Button -->
-    <button1 class="toggle-btn" onclick="toggleSidebar()">
-        &gt;
-    </button1>
+    <button class="toggle-btn" onclick="toggleSidebar()">
+        <i class="fas fa-bars"></i>
+    </button>
 
-    <!-- Sidebar -->
     <div class="sidebar" id="sidebar">
-        <h1 style="margin-top: 20px;">MENU</h1>
-        <a href=""><i class="fas fa-upload"></i> Upload</a>
-        <a href="storage.html"><i class="fas fa-hdd"></i> Storage</a>
-        <a href="settings.html"><i class="fas fa-cogs"></i> Settings</a>
-        {% if session.logged_in %}
-            <a href="login.html"><i class="fas fa-sign-out-alt"></i> Log Out</a>
-        {% else %}
-            <a href="signup.html"><i class="fas fa-sign-in-alt"></i> Sign In/Sign Up</a>
-        {% endif %}
-        <a href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+        <h1>CATALYST</h1>
+        <a href=""><i class="fas fa-upload"></i>Upload</a>
+        <a href="storage.html"><i class="fas fa-hdd"></i>Storage</a>
+        <a href="settings.html"><i class="fas fa-cogs"></i>Settings</a>
+        <a href="login.html"><i class="fas fa-sign-out-alt"></i>Log Out</a>
+        <a href="help.html"><i class="fas fa-question-circle"></i>Help</a>
     </div>
 
-    <!-- Scrollable Content -->
-    <div class="scroll-container" id="scrollContainer">
-        <div class="main-content">
-            <h1>Settings</h1>
-                <div class="settings-container">
-                    <div class="profile-section">
-                        <h2>Profile</h2>
-                        <form method="POST" action="/update_profile">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" id="name" name="name" value="{{ current_user.username }}" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" id="email" name="email" value="{{ current_user.email }}" required>
-                            </div>
-                            <button type="submit" class="save-btn">Save Changes</button>
-                        </form>
-                    </div>
-                    <div class="security-section" style="margin-top:80px;">
-                        <h2>Security</h2>
-                        <form method="POST" action="/change_password">
-                            <div class="form-group">
-                                <label for="current_password">Current Password</label>
-                                <input type="password" id="current_password" name="current_password" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="new_password">New Password</label>
-                                <input type="password" id="new_password" name="new_password" required>
-                            </div>
-                            <button type="submit" class="save-btn">Change Password</button>
-                        </form>
-                    </div>
-                    <div class="feedback-container" style="margin-top:80px;">
-                        <h2>Feedback</h2>
-                        <form method="POST" action="/submit_feedback">
-                            <div class="form-group">
-                                <label for="feedback">Your Feedback or Queries</label>
-                                <textarea id="feedback" name="feedback" rows="5" placeholder="Feel free to write your feedback or queries here..." required></textarea>
-                            </div>
-                            <button type="submit" class="submit-btn">Send Feedback</button>
-                        </form>
-                    </div>                    
+    <div class="notification" id="notification">Settings updated successfully!</div>
+
+    <div class="main-content">
+        <div class="settings-container">
+            <h2><i class="fas fa-user-circle"></i>Profile Settings</h2>
+            <form onsubmit="handleSubmit(event, 'profile')">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
                 </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="save-btn">
+                    <i class="fas fa-save"></i>Save Changes
+                </button>
+            </form>
         </div>
-   <!-- Developer Footer at the very bottom -->
-<footer class="footer" style="margin-top: 30%;">
-    <p>Developed by <a href="krakshit.1970@gmail.com">Arijit Rakshit</a></p>
-    <p>Contact: +91 7908871586 | Address: Munsiffdanga, ward no. 2, Purulia, West Bengal, India</p>
-</footer>
+
+        <div class="settings-container">
+            <h2><i class="fas fa-lock"></i>Security</h2>
+            <form onsubmit="handleSubmit(event, 'security')">
+                <div class="form-group">
+                    <label for="current_password">Current Password</label>
+                    <input type="password" id="current_password" name="current_password" required>
+                </div>
+                <div class="form-group">
+                    <label for="new_password">New Password</label>
+                    <input type="password" id="new_password" name="new_password" required>
+                </div>
+                <button type="submit" class="save-btn">
+                    <i class="fas fa-key"></i>Update Password
+                </button>
+            </form>
+        </div>
+
+        <div class="settings-container">
+            <h2><i class="fas fa-comment-alt"></i>Feedback</h2>
+            <form onsubmit="handleSubmit(event, 'feedback')">
+                <div class="form-group">
+                    <label for="feedback">Your Feedback</label>
+                    <textarea id="feedback" name="feedback" rows="5" placeholder="Share your thoughts with us..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-paper-plane"></i>Send Feedback
+                </button>
+            </form>
+        </div>
     </div>
+
+    <footer class="footer">
+        <p>Developed by <a href="mailto:businessyashas@gmail.com">Yashas Gunderia</a></p>
+        <p>Contact: +91 9167073670 | Address: India</p>
+    </footer>
 
     <script>
+        // Loading screen
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.querySelector('.loading-screen').style.display = 'none';
+            }, 1500);
+        });
+
+        // Sidebar toggle
         function toggleSidebar() {
             const sidebar = document.getElementById('sidebar');
-            const scrollContainer = document.getElementById('scrollContainer');
             sidebar.classList.toggle('open');
-            scrollContainer.classList.toggle('expanded');
-
-            const toggleBtn = document.querySelector('.toggle-btn');
-            toggleBtn.innerHTML = sidebar.classList.contains('open') ? '&lt;' : '&gt;';
         }
+
+        // Form submission handler
+        function handleSubmit(event, formType) {
+            event.preventDefault();
+            
+            // Simulate form submission
+            setTimeout(() => {
+                const notification = document.getElementById('notification');
+                notification.classList.add('show');
+                
+                // Hide notification after 3 seconds
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                }, 3000);
+            }, 500);
+        }
+
+        // Close sidebar when clicking outside
+        document.addEventListener('click', (e) => {
+            const sidebar = document.getElementById('sidebar');
+            const toggleBtn = document.querySelector('.toggle-btn');
+            if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target) && sidebar.classList.contains('open')) {
+                sidebar.classList.remove('open');
+            }
+        });
+
+        // Add hover effect to form inputs
+        const inputs = document.querySelectorAll('input, textarea');
+        inputs.forEach(input => {
+            input.addEventListener('focus', () => {
+                input.parentElement.style.transform = 'translateX(10px)';
+            });
+            input.addEventListener('blur', () => {
+                input.parentElement.style.transform = 'translateX(0)';
+            });
+        });
     </script>
 </body>
-
 </html>
